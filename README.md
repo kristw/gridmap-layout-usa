@@ -3,7 +3,7 @@
 Positions of tiles for US grid map visualization.
 
 <p align="center">
-  <img src="examples/screenshot.png">
+  <img src="examples/screenshot.png" width="450">
 </p>
 
 ### Install
