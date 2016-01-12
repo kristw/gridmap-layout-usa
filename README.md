@@ -38,6 +38,11 @@ The data in each file is an array of tiles (provinces). Each tile is in this for
   ...
 ]
 ```
+
+### Example usage
+
+Please see [this example](http://bl.ocks.org/kristw/2f628465e36f9821325d).
+
 ### Development
 
 The positions of the tiles are taken from [this article](http://www.nytimes.com/interactive/2013/06/26/us/scotus-gay-marriage.html) by New York Times.
