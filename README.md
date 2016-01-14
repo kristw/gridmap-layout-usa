@@ -41,7 +41,7 @@ The data in each file is an array of tiles (provinces). Each tile is in this for
 
 ### Example usage
 
-Please see [this example](http://bl.ocks.org/kristw/2f628465e36f9821325d).
+Please see [this example](http://bl.ocks.org/kristw/2f628465e36f9821325d) for how to use this layout with D3 or you can use the ready-to-use component [d3Kit-gridmap](https://github.com/kristw/d3kit-gridmap).
 
 ### Development
 
