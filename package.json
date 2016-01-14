@@ -1,6 +1,6 @@
 {
   "name": "gridmap-layout-usa",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Positions of tiles for USA grid map visualization",
   "homepage": "https://github.com/kristw/gridmap-layout-usa",
   "main": "dist/gridmap-layout-usa.min.js",
