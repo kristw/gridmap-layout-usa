@@ -8,27 +8,36 @@ var outputDir = __dirname + '/output';
 
 var states = util.readCsv(inputDir + '/states.csv');
 var stateLookup = _.indexBy(states, function(d){return d.key;});
-var matrix = util.readCsvWithoutHeader(inputDir + '/map.csv');
 
-var cells = util.convertMatrixToList(matrix).map(function(cell){
-  return _.extend({
-    x: cell.col,
-    y: cell.row
-  }, stateLookup[cell.value]);
+function process(inputName, outputName){
+  var matrix = util.readCsvWithoutHeader(inputName);
+  var cells = util.convertMatrixToList(matrix).map(function(cell){
+    return _.extend({
+      x: cell.col,
+      y: cell.row
+    }, stateLookup[cell.value]);
+  });
+
+  // console.log(cells);
+
+  fs.writeFileSync(outputDir + '/' + outputName + '.json', JSON.stringify(cells));
+  fs.writeFileSync(outputDir + '/' + outputName + '.csv', ['x,y,key,name'].concat(cells.map(function(cell){
+    return [cell.x, cell.y, cell.key, cell.name].join(',');
+  })).join('\n'));
+
+  var txt = '';
+  mu.compileAndRender(__dirname + '/template.mustache', {data: JSON.stringify(cells, null, 2)})
+    .on('data', function(data){
+      txt += data.toString();
+    })
+    .on('end', function(output){
+      fs.writeFileSync(outputDir + '/' + outputName + '.js', txt);
+    });
+}
+
+
+['538', 'nyt', 'npr', 'guardian', 'bloomberg', 'wp'].forEach(function(source){
+  process(inputDir + '/tiles_' + source + '.csv', 'gridmap-layout-usa-' + source);
 });
 
-console.log(cells);
-
-fs.writeFileSync(outputDir + '/gridmap-layout-usa.json', JSON.stringify(cells));
-fs.writeFileSync(outputDir + '/gridmap-layout-usa.csv', ['x,y,key,name'].concat(cells.map(function(cell){
-  return [cell.x, cell.y, cell.key, cell.name].join(',');
-})).join('\n'));
-
-var txt = '';
-mu.compileAndRender(__dirname + '/template.mustache', {data: JSON.stringify(cells, null, 2)})
-  .on('data', function(data){
-    txt += data.toString();
-  })
-  .on('end', function(output){
-    fs.writeFileSync(outputDir + '/gridmap-layout-usa.js', txt);
-  });
+process(inputDir + '/tiles_nyt.csv', 'gridmap-layout-usa');
