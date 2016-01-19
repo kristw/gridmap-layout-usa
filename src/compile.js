@@ -7,7 +7,7 @@ var inputDir = __dirname + '/input';
 var outputDir = __dirname + '/output';
 
 var states = util.readCsv(inputDir + '/states.csv');
-var stateLookup = _.indexBy(states, function(d){return d.key;});
+var stateLookup = _.keyBy(states, function(d){return d.key;});
 
 function process(inputName, outputName){
   var matrix = util.readCsvWithoutHeader(inputName);
