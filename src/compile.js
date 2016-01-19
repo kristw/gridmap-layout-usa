@@ -35,7 +35,6 @@ function process(inputName, outputName){
     });
 }
 
-
 ['538', 'nyt', 'npr', 'guardian', 'bloomberg', 'wp'].forEach(function(source){
   process(inputDir + '/tiles_' + source + '.csv', 'gridmap-layout-usa-' + source);
 });
