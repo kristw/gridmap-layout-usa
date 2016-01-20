@@ -165,17 +165,18 @@ var qualities = ['nyt', 'npr', 'guardian', 'wp', '538', 'bloomberg'].map(functio
 // console.log('realPairs', realPairs);
 
 qualities.forEach(function(q){
-  console.log('---------------------------------------------------');
-  console.log(q.source);
-  console.log('area:', q.area, q.cols, q.rows);
-  console.log('recall:', q.valid.length + '/' + q.realNeighbors.length + '(' + formatPercent(q.recall) + '%)');
-  console.log('primaryrecall:', formatPercent(q.primaryrecall)+'%');
-  console.log('secondaryrecall:', formatPercent(q.secondaryrecall)+'%');
-  console.log('inaccuracy:', formatPercent(q.inaccuracy)+'%');
-  console.log('misdirection:', formatPercent(q.misdirection)+'%');
-  console.log('missing', q.missing.length, ':', q.missing.map(function(d){return d.key;}).join('  '));
-  console.log('inaccuracy', q.invalid.length, ':', q.invalid.map(function(d){return d.key;}).join('  '));
-  console.log('misdirection', q.misdirections.length, ':', q.misdirections.map(function(d){return d.key + '('+ Math.round(d.realAngle) + ',' +Math.round(d.angle) +')';}).join('  '));
+  console.log('');
+  console.log('##' + q.source);
+  console.log('');
+  console.log('- area:', q.area, '('+q.cols +'x'+ q.rows+')');
+  console.log('- recall:', q.valid.length + '/' + q.realNeighbors.length + '(' + formatPercent(q.recall) + '%)');
+  console.log('- primaryrecall:', formatPercent(q.primaryrecall)+'%');
+  console.log('- secondaryrecall:', formatPercent(q.secondaryrecall)+'%');
+  console.log('- inaccuracy:', formatPercent(q.inaccuracy)+'%');
+  console.log('- misdirection:', formatPercent(q.misdirection)+'%');
+  console.log('- missing', q.missing.length, ':', q.missing.map(function(d){return d.key;}).join('  '));
+  console.log('- inaccuracy', q.invalid.length, ':', q.invalid.map(function(d){return d.key;}).join('  '));
+  console.log('- misdirection', q.misdirections.length, ':', q.misdirections.map(function(d){return d.key + '('+ Math.round(d.realAngle) + ',' +Math.round(d.angle) +')';}).join('  '));
 });
 
 var output2 = [['source', 'metric', 'value']];
