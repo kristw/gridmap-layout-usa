@@ -55,7 +55,8 @@ npm run compile
 
 ### Quality metrics
 
-To run the script that evaluates different layouts mentioned in this study.
+I have written about an evaluation method for grid map in this [blog post](https://medium.com/@kristw/whose-grid-map-is-better-quality-metrics-for-grid-map-layouts-e3d6075d9e80).
+To run the script to evaluates different layouts:
 
 ```
 node src/quality.js
