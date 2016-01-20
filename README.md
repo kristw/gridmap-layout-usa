@@ -53,4 +53,12 @@ You can modify `src/input/map.csv` to change positions, then
 npm run compile
 ```
 
+### Quality metrics
+
+To run the script that evaluates different layouts mentioned in this study.
+
+```
+node src/quality.js
+```
+
 Copyright (c) 2016 Krist Wongsuphasawat. Licensed under the MIT License
