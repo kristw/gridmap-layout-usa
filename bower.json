@@ -29,5 +29,8 @@
     "gruntFile.js",
     "grunt/*.js",
     "package.json"
-  ]
+  ],
+  "devDependencies": {
+    "d3kit-gridmap": "~0.0.3"
+  }
 }

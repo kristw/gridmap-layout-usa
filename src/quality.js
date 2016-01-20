@@ -114,7 +114,7 @@ function qc(cells, realPairs){
     primary: primary,
     secondary: secondary,
     missing: diff1,
-    excessive: diff2,
+    invalid: diff2,
     misdirections: misdirections,
 
     rows: rows,
@@ -123,8 +123,8 @@ function qc(cells, realPairs){
     coverage: intersection.length / realPairs.length,
     primaryCoverage: primary.length / realPairs.length,
     secondaryCoverage: secondary.length / realPairs.length,
-    excess: diff2.length / realPairs.length,
-    misdirection: misdirections.length / realPairs.length
+    inaccuracy: diff2.length / pairs.length,
+    misdirection: misdirections.length / intersection.length
   };
 }
 
@@ -171,9 +171,9 @@ qualities.forEach(function(q){
   console.log('coverage:', q.valid.length + '/' + q.realNeighbors.length + '(' + formatPercent(q.coverage) + '%)');
   console.log('primaryCoverage:', formatPercent(q.primaryCoverage)+'%');
   console.log('secondaryCoverage:', formatPercent(q.secondaryCoverage)+'%');
-  console.log('excess:', formatPercent(q.excess)+'%');
+  console.log('inaccuracy:', formatPercent(q.inaccuracy)+'%');
   console.log('misdirection:', formatPercent(q.misdirection)+'%');
   console.log('missing', q.missing.length, ':', q.missing.map(function(d){return d.key;}).join('  '));
-  console.log('excess', q.excessive.length, ':', q.excessive.map(function(d){return d.key;}).join('  '));
+  console.log('inaccuracy', q.invalid.length, ':', q.invalid.map(function(d){return d.key;}).join('  '));
   console.log('misdirection', q.misdirections.length, ':', q.misdirections.map(function(d){return d.key + '('+ Math.round(d.realAngle) + ',' +Math.round(d.angle) +')';}).join('  '));
 });
