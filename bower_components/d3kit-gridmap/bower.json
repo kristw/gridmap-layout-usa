@@ -1,0 +1,39 @@
+{
+  "name": "d3kit-gridmap",
+  "description": "A grid map component based on d3kit",
+  "homepage": "https://github.com/kristw/d3kit-gridmap",
+  "main": "dist/d3kit-gridmap.min.js",
+  "authors": [
+    "Krist Wongsuphasawat <krist.wongz@gmail.com> (http://kristw.yellowpigz.com)"
+  ],
+  "license": "Apache-2.0",
+  "keywords": [
+    "d3kit-gridmap",
+    "d3kit"
+  ],
+  "moduleType": [
+    "amd",
+    "globals",
+    "node"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "src",
+    "examples",
+    "docs",
+    "gruntFile.js",
+    "grunt/*.js",
+    "package.json"
+  ],
+  "dependencies": {
+    "d3kit": "~1.0.9"
+  },
+  "devDependencies": {
+    "gridmap-layout-thailand": "~0.0.2",
+    "gridmap-layout-usa": "~0.0.2"
+  }
+}
