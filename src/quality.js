@@ -120,9 +120,9 @@ function qc(cells, realPairs){
     rows: rows,
     cols: cols,
     area: rows * cols,
-    coverage: intersection.length / realPairs.length,
-    primaryCoverage: primary.length / realPairs.length,
-    secondaryCoverage: secondary.length / realPairs.length,
+    recall: intersection.length / realPairs.length,
+    primaryrecall: primary.length / realPairs.length,
+    secondaryrecall: secondary.length / realPairs.length,
     inaccuracy: diff2.length / pairs.length,
     misdirection: misdirections.length / intersection.length
   };
@@ -167,13 +167,24 @@ var qualities = ['nyt', 'npr', 'guardian', 'wp', '538', 'bloomberg'].map(functio
 qualities.forEach(function(q){
   console.log('---------------------------------------------------');
   console.log(q.source);
-  console.log('area:', q.area);
-  console.log('coverage:', q.valid.length + '/' + q.realNeighbors.length + '(' + formatPercent(q.coverage) + '%)');
-  console.log('primaryCoverage:', formatPercent(q.primaryCoverage)+'%');
-  console.log('secondaryCoverage:', formatPercent(q.secondaryCoverage)+'%');
+  console.log('area:', q.area, q.cols, q.rows);
+  console.log('recall:', q.valid.length + '/' + q.realNeighbors.length + '(' + formatPercent(q.recall) + '%)');
+  console.log('primaryrecall:', formatPercent(q.primaryrecall)+'%');
+  console.log('secondaryrecall:', formatPercent(q.secondaryrecall)+'%');
   console.log('inaccuracy:', formatPercent(q.inaccuracy)+'%');
   console.log('misdirection:', formatPercent(q.misdirection)+'%');
   console.log('missing', q.missing.length, ':', q.missing.map(function(d){return d.key;}).join('  '));
   console.log('inaccuracy', q.invalid.length, ':', q.invalid.map(function(d){return d.key;}).join('  '));
   console.log('misdirection', q.misdirections.length, ':', q.misdirections.map(function(d){return d.key + '('+ Math.round(d.realAngle) + ',' +Math.round(d.angle) +')';}).join('  '));
 });
+
+var output2 = [['source', 'metric', 'value']];
+var output = [['source', 'area', 'recall', 'primary', 'secondary', 'inaccuracy', 'misdirection']].concat(qualities.map(function(q){
+  ['area', 'recall', 'primaryrecall', 'secondaryrecall', 'inaccuracy', 'misdirection'].forEach(function(metric){
+    output2.push([q.source, metric, q[metric]]);
+  });
+  return [q.source, q.area, q.recall, q.primaryrecall, q.secondaryrecall, q.inaccuracy, q.misdirection];
+}));
+
+util.saveAsCsv('./output/quality-data.csv', output);
+util.saveAsCsv('./output/quality-data2.csv', output2);
