@@ -1,3 +1,9 @@
+numStates 51
+numStates 51
+numStates 51
+numStates 51
+numStates 50
+numStates 50
 
 ##nyt
 
@@ -26,13 +32,13 @@
 ##guardian
 
 - area: 104 (8x13)
-- recall: 87/106(82.08%)
-- primaryrecall: 61.32%
+- recall: 90/106(84.91%)
+- primaryrecall: 64.15%
 - secondaryrecall: 20.75%
-- inaccuracy: 16.20%
-- misdirection: 12.64%
-- missing 19 : MA,NY  ID,UT  AZ,CA  AZ,NV  AZ,NM  AZ,UT  AR,TX  MO,OK  KY,MO  CT,NY  NY,VT  GA,TN  KY,VA  NC,TN  TN,VA  MD,VA  MD,WV  PA,WV  MD,PA
-- inaccuracy 23 : ME,VT  NH,RI  MA,NJ  DE,NJ  PA,VA  CT,DE  DC,DE  CT,MD  CT,DC  NV,WY  IL,TN  OH,VA  DC,NC  CA,UT  CA,  UT,  AR,KS  AL,KY  NC,WV  GA,WV  NM,  LA,OK  FL,SC
+- inaccuracy: 14.08%
+- misdirection: 12.22%
+- missing 16 : MA,NY  ID,UT  AZ,NV  AR,TX  MO,OK  KY,MO  CT,NY  NY,VT  GA,TN  KY,VA  NC,TN  TN,VA  MD,VA  MD,WV  PA,WV  MD,PA
+- inaccuracy 20 : ME,VT  NH,RI  MA,NJ  DE,NJ  PA,VA  CT,DE  DC,DE  CT,MD  CT,DC  NV,WY  IL,TN  OH,VA  DC,NC  CA,UT  AR,KS  AL,KY  NC,WV  GA,WV  LA,OK  FL,SC
 - misdirection 11 : DE,MD(172,45)  VA,WV(210,135)  NV,OR(252,180)  NJ,NY(245,180)  MA,RI(61,0)  AR,OK(189,135)  ID,OR(187,135)  NJ,PA(185,135)  ID,WA(230,180)  LA,TX(184,135)  AL,TN(272,225)
 
 ##wp

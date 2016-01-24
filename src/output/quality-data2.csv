@@ -12,11 +12,11 @@ npr,secondaryrecall,0.24528301886792453
 npr,inaccuracy,0.17123287671232876
 npr,misdirection,0.11363636363636363
 guardian,area,104
-guardian,recall,0.8207547169811321
-guardian,primaryrecall,0.6132075471698113
+guardian,recall,0.8490566037735849
+guardian,primaryrecall,0.6415094339622641
 guardian,secondaryrecall,0.20754716981132076
-guardian,inaccuracy,0.1619718309859155
-guardian,misdirection,0.12643678160919541
+guardian,inaccuracy,0.14084507042253522
+guardian,misdirection,0.12222222222222222
 wp,area,96
 wp,recall,0.8584905660377359
 wp,primaryrecall,0.6132075471698113
