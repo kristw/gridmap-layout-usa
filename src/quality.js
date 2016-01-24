@@ -133,8 +133,8 @@ function formatPercent(percent){
 }
 
 var realPairs = (function(){
-  var usa = require('./input/usa.topo.json');
-  var states = util.readCsv('./input/states.csv');
+  var usa = require(__dirname + '/input/usa.topo.json');
+  var states = util.readCsv(__dirname + '/input/states.csv');
   var stateLookup = _.keyBy(states, function(d){return d.name.toLowerCase();});
 
   var stateObjects = usa.objects.units.geometries.map(function(o){
@@ -187,5 +187,5 @@ var output = [['source', 'area', 'recall', 'primary', 'secondary', 'inaccuracy',
   return [q.source, q.area, q.recall, q.primaryrecall, q.secondaryrecall, q.inaccuracy, q.misdirection];
 }));
 
-util.saveAsCsv('./output/quality-data.csv', output);
-util.saveAsCsv('./output/quality-data2.csv', output2);
+util.saveAsCsv(__dirname + '/output/quality-data.csv', output);
+util.saveAsCsv(__dirname + '/output/quality-data2.csv', output2);

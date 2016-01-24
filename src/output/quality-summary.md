@@ -14,13 +14,13 @@
 ##npr
 
 - area: 96 (8x12)
-- recall: 84/106(79.25%)
-- primaryrecall: 55.66%
-- secondaryrecall: 23.58%
-- inaccuracy: 18.49%
-- misdirection: 11.90%
-- missing 22 : MA,NY  MN,WI  MT,ND  ID,MT  MT,WY  MT,SD  ID,UT  AZ,NV  CO,OK  NM,TX  AR,TX  IA,WI  MO,OK  IL,MO  AL,FL  GA,TN  IL,KY  IN,MI  KY,VA  TN,VA  MD,WV  DE,PA
-- inaccuracy 27 : ME,VT  RI,VT  NH,RI  ID,MN  MN,WY  IL,MN  OH,WI  MI,NY  MI,PA  NY,RI  NV,WY  IA,IN  PA,VA  CT,NJ  MD,NJ  CT,DE  CT,MD  CA,UT  NC,WV  SC,VA  DC,DE  KS,NM  AR,KS  AL,NC  DC,SC  DC,GA  LA,OK
+- recall: 88/106(83.02%)
+- primaryrecall: 58.49%
+- secondaryrecall: 24.53%
+- inaccuracy: 17.12%
+- misdirection: 11.36%
+- missing 18 : MA,NY  MN,WI  ID,UT  AZ,NV  CO,OK  NM,TX  AR,TX  IA,WI  MO,OK  IL,MO  AL,FL  GA,TN  IL,KY  IN,MI  KY,VA  TN,VA  MD,WV  DE,PA
+- inaccuracy 25 : ME,VT  RI,VT  NH,RI  IL,MN  OH,WI  MI,NY  MI,PA  NY,RI  NV,WY  IA,IN  PA,VA  CT,NJ  MD,NJ  CT,DE  CT,MD  CA,UT  NC,WV  SC,VA  DC,DE  KS,NM  AR,KS  AL,NC  DC,SC  DC,GA  LA,OK
 - misdirection 10 : NC,SC(117,0)  GA,NC(310,225)  NV,OR(252,180)  CT,RI(341,270)  AR,OK(189,135)  ID,OR(187,135)  GA,SC(321,270)  ID,WA(230,180)  LA,TX(184,135)  AL,TN(272,225)
 
 ##guardian
@@ -70,4 +70,3 @@
 - missing 16 : ID,NV  AZ,UT  CO,OK  NM,TX  AR,TX  AR,TN  MO,OK  MO,TN  AL,FL  IL,KY  IN,MI  KY,OH  KY,VA  NC,TN  MD,WV  DE,PA
 - inaccuracy 25 : ME,VT  AK,WA  NH,RI  MI,PA  OR,UT  IL,OH  PA,VA  CT,NJ  MD,NJ  CT,DE  CT,MD  CO,NV  IN,MO  IN,WV  TN,WV  SC,VA  MD,NC  DE,NC  KS,NM  AR,KS  AR,KY  KY,MS  SC,TN  LA,OK  MS,TX
 - misdirection 9 : KY,TN(110,0)  LA,TX(184,90)  OK,TX(112,45)  MA,RI(61,0)  AR,OK(189,135)  ID,OR(187,135)  GA,SC(321,270)  ID,WA(230,180)  NC,VA(272,225)
-[Finished in 0.2s]

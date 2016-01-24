@@ -54,8 +54,8 @@
   {
     "x": 3,
     "y": 2,
-    "key": "MN",
-    "name": "Minnesota"
+    "key": "MT",
+    "name": "Montana"
   },
   {
     "x": 4,

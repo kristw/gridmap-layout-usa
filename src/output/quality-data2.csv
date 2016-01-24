@@ -6,11 +6,11 @@ nyt,secondaryrecall,0.22641509433962265
 nyt,inaccuracy,0.11724137931034483
 nyt,misdirection,0.05263157894736842
 npr,area,96
-npr,recall,0.7924528301886793
-npr,primaryrecall,0.5566037735849056
-npr,secondaryrecall,0.2358490566037736
-npr,inaccuracy,0.18493150684931506
-npr,misdirection,0.11904761904761904
+npr,recall,0.8301886792452831
+npr,primaryrecall,0.5849056603773585
+npr,secondaryrecall,0.24528301886792453
+npr,inaccuracy,0.17123287671232876
+npr,misdirection,0.11363636363636363
 guardian,area,104
 guardian,recall,0.8207547169811321
 guardian,primaryrecall,0.6132075471698113
