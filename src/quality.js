@@ -55,6 +55,9 @@ function computePairs(neighborLookup, featureLookup){
 function qc(cells, realPairs){
   var cellLookup = _.keyBy(cells, function(d){return [d.x,d.y].join(',');});
 
+  var numStates = _.uniq(cells.map(function(d){return d.key;})).length;
+  console.log('numStates', numStates);
+
   var pairs = [];
   cells.forEach(function(cell){
     var candidates = [
