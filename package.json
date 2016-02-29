@@ -15,10 +15,8 @@
   "devDependencies": {
     "d3": "^3.5.12",
     "grunt": "~0.4.5",
-    "grunt-bump": "~0.3.1",
     "grunt-cli": "~0.1.13",
     "grunt-gh-pages": "~0.10.0",
-    "grunt-shell": "~1.1.2",
     "load-grunt-config": "~0.17.1",
     "lodash": "~4.0.0",
     "mu2": "~0.5.20",
@@ -28,6 +26,10 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "compile": "node src/compile.js && node_modules/uglify-js/bin/uglifyjs --compress --mangle -- src/output/gridmap-layout-usa.js > src/output/gridmap-layout-usa.min.js && cp src/output/gridmap-layout-usa.* dist && cp src/output/gridmap-layout*.* examples/dist/"
+    "compile": "node src/compile.js && node_modules/uglify-js/bin/uglifyjs --compress --mangle -- src/output/gridmap-layout-usa.js > src/output/gridmap-layout-usa.min.js && cp src/output/gridmap-layout-usa.* dist && cp src/output/gridmap-layout*.* examples/dist/",
+    "preversion": "npm test",
+    "version": "npm run compile && git add -A dist",
+    "postversion": "pkgfiles",
+    "prepublish": "git push ; git push --tags"
   }
 }
