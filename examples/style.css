@@ -1,6 +1,7 @@
 body{
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   text-align: center;
+  background-color: #ecdbcd;
 }
 
 h1, h2{
@@ -34,11 +35,11 @@ footer{
 
 .block{
   display: inline-block;
-  background-color: #eee;
-  border: 1px solid #ccc;
+  // border: 1px solid #ccc;
   margin: 5px;
   text-align: center;
   width: 280px;
+  padding: 10px;
 }
 
 .block .title{

@@ -20,7 +20,11 @@
     <script src="bower_components/d3kit/dist/d3kit.min.js"></script>
     <script src="bower_components/d3kit-gridmap/dist/d3kit-gridmap.min.js"></script>
     <script>
-      var color = d3.scale.category10();
+      // var color = d3.scale.category10();
+      var color = d3.scale.linear()
+        .domain([0, 20])
+        .range(['#ecf0f1', '#c0392b']);
+
       var names = {
         nyt: 'New York Times',
         npr: 'NPR',
@@ -39,8 +43,8 @@
         var map = new d3Kit.Gridmap(element[0][0], {
           col: function(d){return +d.x;},
           row: function(d){return +d.y;},
-          tileWidth: 20,
-          tileHeight: 20,
+          tileWidth: 21,
+          tileHeight: 21,
           fill: function(d){return color(d.name.length);}
         });
 
