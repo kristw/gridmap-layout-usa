@@ -27,6 +27,7 @@
     "uglify-js": "~2.6.1"
   },
   "scripts": {
+    "browser-sync": "browser-sync start --server 'examples' --browser \"Google Chrome\" --files \"examples/**/*.*\" --port 7000",
     "test": "echo \"Error: no test specified\" && exit 1",
     "compile": "node src/compile.js && node_modules/uglify-js/bin/uglifyjs --compress --mangle -- src/output/gridmap-layout-usa.js > src/output/gridmap-layout-usa.min.js && cp src/output/gridmap-layout-usa.* dist && cp src/output/gridmap-layout*.* examples/dist/",
     "preversion": "npm test",

@@ -2,6 +2,7 @@ var d3 = require('d3');
 var topojson = require('topojson');
 var _ = require('lodash');
 var util = require('./util.js');
+var fs = require('fs');
 
 function neighborKey(source, target){
   return [source, target].sort().join(',');
@@ -123,9 +124,9 @@ function qc(cells, realPairs){
     rows: rows,
     cols: cols,
     area: rows * cols,
-    recall: intersection.length / realPairs.length,
-    primaryrecall: primary.length / realPairs.length,
-    secondaryrecall: secondary.length / realPairs.length,
+    topology: intersection.length / realPairs.length,
+    topologyPrimary: primary.length / realPairs.length,
+    topologySecondary: secondary.length / realPairs.length,
     inaccuracy: diff2.length / pairs.length,
     misdirection: misdirections.length / intersection.length
   };
@@ -172,9 +173,9 @@ qualities.forEach(function(q){
   console.log('##' + q.source);
   console.log('');
   console.log('- area:', q.area, '('+q.cols +'x'+ q.rows+')');
-  console.log('- recall:', q.valid.length + '/' + q.realNeighbors.length + '(' + formatPercent(q.recall) + '%)');
-  console.log('- primaryrecall:', formatPercent(q.primaryrecall)+'%');
-  console.log('- secondaryrecall:', formatPercent(q.secondaryrecall)+'%');
+  console.log('- topology:', q.valid.length + '/' + q.realNeighbors.length + '(' + formatPercent(q.topology) + '%)');
+  console.log('- topologyPrimary:', formatPercent(q.topologyPrimary)+'%');
+  console.log('- topologySecondary:', formatPercent(q.topologySecondary)+'%');
   console.log('- inaccuracy:', formatPercent(q.inaccuracy)+'%');
   console.log('- misdirection:', formatPercent(q.misdirection)+'%');
   console.log('- missing', q.missing.length, ':', q.missing.map(function(d){return d.key;}).join('  '));
@@ -183,12 +184,14 @@ qualities.forEach(function(q){
 });
 
 var output2 = [['source', 'metric', 'value']];
-var output = [['source', 'area', 'recall', 'primary', 'secondary', 'inaccuracy', 'misdirection']].concat(qualities.map(function(q){
-  ['area', 'recall', 'primaryrecall', 'secondaryrecall', 'inaccuracy', 'misdirection'].forEach(function(metric){
+var output = [['source', 'area', 'topology', 'primary', 'secondary', 'inaccuracy', 'misdirection']].concat(qualities.map(function(q){
+  ['area', 'topology', 'topologyPrimary', 'topologySecondary', 'inaccuracy', 'misdirection'].forEach(function(metric){
     output2.push([q.source, metric, q[metric]]);
   });
-  return [q.source, q.area, q.recall, q.primaryrecall, q.secondaryrecall, q.inaccuracy, q.misdirection];
+  return [q.source, q.area, q.topology, q.topologyPrimary, q.topologySecondary, q.inaccuracy, q.misdirection];
 }));
 
 util.saveAsCsv(__dirname + '/output/quality-data.csv', output);
 util.saveAsCsv(__dirname + '/output/quality-data2.csv', output2);
+
+fs.writeFileSync(__dirname + '/../examples/qualities.json', JSON.stringify(qualities, null, 2));
