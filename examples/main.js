@@ -41,7 +41,7 @@ d3.json('qualities.json', function(error, qualities) {
       tileWidth: 21,
       tileHeight: 21,
       fill: function(d){
-        return info[d.key] ? '#ed841e' : '#f1e5db';
+        return '#f1e5db';
         return color(d.name.length);
       }
     });

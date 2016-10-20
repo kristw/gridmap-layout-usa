@@ -48,6 +48,7 @@ function constructor(skeleton){
     var data = skeleton.data();
     drawTiles(data.tiles);
     drawInvalidNeighbors(data);
+    drawMisdirections(data);
   }
 
   function drawTiles(tiles) {
@@ -68,7 +69,7 @@ function constructor(skeleton){
         dispatch.tileMouseout(d, i);
       })
       .attr('transform', function(d){
-        return 'translate('+(options.col(d)*options.tileWidth)+','+(options.row(d)*options.tileHeight)+')';}
+        return 'translate('+(xFn(d))+','+(yFn(d))+')';}
       );
 
     sEnter.append('rect')
@@ -90,7 +91,7 @@ function constructor(skeleton){
 
     var sTrans = selection.transition()
       .attr('transform', function(d){
-        return 'translate('+(options.col(d)*options.tileWidth)+','+(options.row(d)*options.tileHeight)+')';}
+        return 'translate('+(xFn(d))+','+(yFn(d))+')';}
       );
 
     sTrans.select('rect')
@@ -119,12 +120,14 @@ function constructor(skeleton){
     const selection = layers.get('invalid').selectAll('rect')
       .data(pairs, function(d){return d.key;});
 
+    const thickness = 4;
+
     selection.enter().append('rect')
       .attr('x', function(d){
         var t1 = tileLookup[d.region1];
         var t2 = tileLookup[d.region2];
         if(t1.y === t2.y) {
-          return Math.max(xFn(t1), xFn(t2)) - 3;
+          return Math.max(xFn(t1), xFn(t2)) - thickness/2;
         }
         return xFn(t1);
       })
@@ -134,13 +137,13 @@ function constructor(skeleton){
         if(t1.y === t2.y) {
           return yFn(t1);
         }
-        return Math.max(yFn(t1), yFn(t2)) - 3;
+        return Math.max(yFn(t1), yFn(t2)) - thickness/2;
       })
       .attr('width', function(d){
         var t1 = tileLookup[d.region1];
         var t2 = tileLookup[d.region2];
         if(t1.y === t2.y) {
-          return 6;
+          return thickness;
         }
         return options.tileWidth;
       })
@@ -150,7 +153,35 @@ function constructor(skeleton){
         if(t1.y === t2.y) {
           return options.tileHeight;
         }
-        return 6;
+        return thickness;
+      })
+  }
+
+  function drawMisdirections(data){
+    var tileLookup = data.tileLookup;
+    var pairs = data.quality.misdirections;
+
+    const selection = layers.get('misdirection').selectAll('line')
+      .data(pairs, function(d){return d.key;});
+
+    const thickness = 14;
+
+    selection.enter().append('line')
+      .style('stroke-width', thickness)
+      .style('stroke', '#ed841e')
+      .style('stroke-linecap', 'round')
+      .style('mix-blend-mode', 'multiply')
+      .attr('x1', function(d){
+        return xFn(tileLookup[d.region1]) + options.tileWidth/2;
+      })
+      .attr('y1', function(d){
+        return yFn(tileLookup[d.region1]) + options.tileHeight/2;
+      })
+      .attr('x2', function(d){
+        return xFn(tileLookup[d.region2]) + options.tileWidth/2;
+      })
+      .attr('y2', function(d){
+        return yFn(tileLookup[d.region2]) + options.tileHeight/2;
       })
   }
 
