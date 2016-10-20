@@ -37,7 +37,7 @@ function constructor(skeleton){
   dispatch.on('options', visualize);
   dispatch.on('data', visualize);
 
-  layers.create(['tile', 'invalid', 'misdirection']);
+  layers.create(['tile', 'invalid', 'misdirection', 'missing']);
 
   function visualize(){
     if(!skeleton.hasData()){
@@ -49,6 +49,7 @@ function constructor(skeleton){
     drawTiles(data.tiles);
     drawInvalidNeighbors(data);
     drawMisdirections(data);
+    drawMissing(data);
   }
 
   function drawTiles(tiles) {
@@ -185,6 +186,41 @@ function constructor(skeleton){
       })
   }
 
+  function drawMissing(data){
+    var tileLookup = data.tileLookup;
+    var pairs = data.quality.missing;
+
+    const selection = layers.get('missing').selectAll('path')
+      .data(pairs, function(d){return d.key;});
+
+    const thickness = 2;
+
+    selection.enter().append('path')
+      .style('stroke-width', thickness)
+      .style('stroke', '#000')
+      .style('fill', 'none')
+      .style('opacity', 0.5)
+      .style('stroke-linecap', 'round')
+      // .style('mix-blend-mode', 'multiply')
+      .attr('d', function(d){
+        var t1 = tileLookup[d.region1];
+        var t2 = tileLookup[d.region2];
+        if(t1.x < t2.x) {
+          var tmp = t2;
+          t2 = t1;
+          t1 = tmp;
+        }
+        var x1 = xFn(t1) + options.tileWidth/2;
+        var x2 = xFn(t2) + options.tileWidth/2;
+        var y1 = yFn(t1) + options.tileWidth/2;
+        var y2 = yFn(t2) + options.tileWidth/2;
+        var distance = Math.round(0.9 * Math.sqrt((x1-x2)*(x1-x2) + (y1-y2)*(y1-y2)));
+        var cx = (x1+x2)/2;
+        var cy = (y1+y2)/2;
+        return 'M'+x1+','+y1+' A'+distance+','+distance+' 0 0,0 '+x2+','+y2;
+        // return 'M'+x1+','+y1+' Q'+cx+','+cy+' '+x2+','+y2;
+      });
+  }
   function xFn(tile) {
     return options.col(tile) * options.tileWidth;
   }
