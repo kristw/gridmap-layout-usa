@@ -651,7 +651,7 @@
         "region1": "ME",
         "region2": "NH",
         "angle": 135,
-        "secondary": false
+        "secondary": true
       },
       {
         "key": "NH,VT",
@@ -714,7 +714,7 @@
         "region1": "CT",
         "region2": "MA",
         "angle": 315,
-        "secondary": false
+        "secondary": true
       },
       {
         "key": "MT,WA",
@@ -889,7 +889,7 @@
         "region1": "MI",
         "region2": "OH",
         "angle": 45,
-        "secondary": false
+        "secondary": true
       },
       {
         "key": "IL,MI",
@@ -952,7 +952,7 @@
         "region1": "NJ",
         "region2": "RI",
         "angle": 315,
-        "secondary": false
+        "secondary": true
       },
       {
         "key": "ID,OR",
@@ -1218,7 +1218,7 @@
         "region1": "MD",
         "region2": "NJ",
         "angle": 315,
-        "secondary": false
+        "secondary": true
       },
       {
         "key": "CA,NV",
@@ -1239,7 +1239,7 @@
         "region1": "AZ",
         "region2": "NV",
         "angle": 225,
-        "secondary": false
+        "secondary": true
       },
       {
         "key": "CO,UT",
@@ -1435,7 +1435,7 @@
         "region1": "MD",
         "region2": "NC",
         "angle": 135,
-        "secondary": false
+        "secondary": true
       },
       {
         "key": "AZ,NM",
@@ -1449,7 +1449,7 @@
         "region1": "AZ",
         "region2": "TX",
         "angle": 45,
-        "secondary": false
+        "secondary": true
       },
       {
         "key": "NM,OK",
@@ -1596,7 +1596,7 @@
         "region1": "GA",
         "region2": "NC",
         "angle": 315,
-        "secondary": false
+        "secondary": true
       },
       {
         "key": "LA,TX",
@@ -1631,7 +1631,7 @@
         "region1": "AL",
         "region2": "FL",
         "angle": 45,
-        "secondary": false
+        "secondary": true
       },
       {
         "key": "GA,SC",
@@ -1652,7 +1652,7 @@
         "region1": "FL",
         "region2": "SC",
         "angle": 315,
-        "secondary": false
+        "secondary": true
       }
     ],
     "valid": [
@@ -1663,7 +1663,7 @@
         "realAngle": 302.3880008180061,
         "angle": 315,
         "diffAngle": -12.611999181993895,
-        "secondary": false
+        "secondary": true
       },
       {
         "key": "MA,NH",
@@ -1807,7 +1807,7 @@
         "realAngle": 243.19791991193335,
         "angle": 225,
         "diffAngle": 18.197919911933354,
-        "secondary": false
+        "secondary": true
       },
       {
         "key": "AZ,NM",
@@ -2194,7 +2194,7 @@
         "realAngle": 118.84255900833648,
         "angle": 135,
         "diffAngle": -16.15744099166352,
-        "secondary": false
+        "secondary": true
       },
       {
         "key": "NY,VT",
@@ -2212,7 +2212,7 @@
         "realAngle": 40.86661362660044,
         "angle": 45,
         "diffAngle": -4.13338637339956,
-        "secondary": false
+        "secondary": true
       },
       {
         "key": "AL,GA",
@@ -2266,7 +2266,7 @@
         "realAngle": 309.9043309071484,
         "angle": 315,
         "diffAngle": -5.095669092851608,
-        "secondary": false
+        "secondary": true
       },
       {
         "key": "GA,TN",
@@ -2410,7 +2410,7 @@
         "realAngle": 57.669201726778965,
         "angle": 45,
         "diffAngle": 12.669201726778965,
-        "secondary": false
+        "secondary": true
       },
       {
         "key": "TN,VA",
@@ -2514,15 +2514,6 @@
     ],
     "primary": [
       {
-        "key": "CT,MA",
-        "region1": "CT",
-        "region2": "MA",
-        "realAngle": 302.3880008180061,
-        "angle": 315,
-        "diffAngle": -12.611999181993895,
-        "secondary": false
-      },
-      {
         "key": "MA,NH",
         "region1": "MA",
         "region2": "NH",
@@ -2628,15 +2619,6 @@
         "realAngle": 286.25058989883155,
         "angle": 270,
         "diffAngle": 16.25058989883155,
-        "secondary": false
-      },
-      {
-        "key": "AZ,NV",
-        "region1": "AZ",
-        "region2": "NV",
-        "realAngle": 243.19791991193335,
-        "angle": 225,
-        "diffAngle": 18.197919911933354,
         "secondary": false
       },
       {
@@ -2901,30 +2883,12 @@
         "secondary": false
       },
       {
-        "key": "ME,NH",
-        "region1": "ME",
-        "region2": "NH",
-        "realAngle": 118.84255900833648,
-        "angle": 135,
-        "diffAngle": -16.15744099166352,
-        "secondary": false
-      },
-      {
         "key": "NY,VT",
         "region1": "NY",
         "region2": "VT",
         "realAngle": 318.1602691304627,
         "angle": 270,
         "diffAngle": 48.16026913046272,
-        "secondary": false
-      },
-      {
-        "key": "AL,FL",
-        "region1": "AL",
-        "region2": "FL",
-        "realAngle": 40.86661362660044,
-        "angle": 45,
-        "diffAngle": -4.13338637339956,
         "secondary": false
       },
       {
@@ -2970,15 +2934,6 @@
         "realAngle": 320.82734312044,
         "angle": 0,
         "diffAngle": -39.17265687956001,
-        "secondary": false
-      },
-      {
-        "key": "GA,NC",
-        "region1": "GA",
-        "region2": "NC",
-        "realAngle": 309.9043309071484,
-        "angle": 315,
-        "diffAngle": -5.095669092851608,
         "secondary": false
       },
       {
@@ -3072,15 +3027,6 @@
         "secondary": false
       },
       {
-        "key": "MI,OH",
-        "region1": "MI",
-        "region2": "OH",
-        "realAngle": 57.669201726778965,
-        "angle": 45,
-        "diffAngle": 12.669201726778965,
-        "secondary": false
-      },
-      {
         "key": "TN,VA",
         "region1": "TN",
         "region2": "VA",
@@ -3155,6 +3101,15 @@
     ],
     "secondary": [
       {
+        "key": "CT,MA",
+        "region1": "CT",
+        "region2": "MA",
+        "realAngle": 302.3880008180061,
+        "angle": 315,
+        "diffAngle": -12.611999181993895,
+        "secondary": true
+      },
+      {
         "key": "MT,WY",
         "region1": "MT",
         "region2": "WY",
@@ -3179,6 +3134,15 @@
         "realAngle": 118.32026449651926,
         "angle": 135,
         "diffAngle": -16.679735503480742,
+        "secondary": true
+      },
+      {
+        "key": "AZ,NV",
+        "region1": "AZ",
+        "region2": "NV",
+        "realAngle": 243.19791991193335,
+        "angle": 225,
+        "diffAngle": 18.197919911933354,
         "secondary": true
       },
       {
@@ -3299,6 +3263,33 @@
         "secondary": true
       },
       {
+        "key": "ME,NH",
+        "region1": "ME",
+        "region2": "NH",
+        "realAngle": 118.84255900833648,
+        "angle": 135,
+        "diffAngle": -16.15744099166352,
+        "secondary": true
+      },
+      {
+        "key": "AL,FL",
+        "region1": "AL",
+        "region2": "FL",
+        "realAngle": 40.86661362660044,
+        "angle": 45,
+        "diffAngle": -4.13338637339956,
+        "secondary": true
+      },
+      {
+        "key": "GA,NC",
+        "region1": "GA",
+        "region2": "NC",
+        "realAngle": 309.9043309071484,
+        "angle": 315,
+        "diffAngle": -5.095669092851608,
+        "secondary": true
+      },
+      {
         "key": "GA,TN",
         "region1": "GA",
         "region2": "TN",
@@ -3341,6 +3332,15 @@
         "realAngle": 36.08329215908077,
         "angle": 135,
         "diffAngle": -98.91670784091923,
+        "secondary": true
+      },
+      {
+        "key": "MI,OH",
+        "region1": "MI",
+        "region2": "OH",
+        "realAngle": 57.669201726778965,
+        "angle": 45,
+        "diffAngle": 12.669201726778965,
         "secondary": true
       },
       {
@@ -3476,13 +3476,6 @@
         "secondary": false
       },
       {
-        "key": "NJ,RI",
-        "region1": "NJ",
-        "region2": "RI",
-        "angle": 315,
-        "secondary": false
-      },
-      {
         "key": "IN,WV",
         "region1": "IN",
         "region2": "WV",
@@ -3504,13 +3497,6 @@
         "secondary": false
       },
       {
-        "key": "MD,NJ",
-        "region1": "MD",
-        "region2": "NJ",
-        "angle": 315,
-        "secondary": false
-      },
-      {
         "key": "DC,WV",
         "region1": "DC",
         "region2": "WV",
@@ -3525,20 +3511,6 @@
         "secondary": false
       },
       {
-        "key": "MD,NC",
-        "region1": "MD",
-        "region2": "NC",
-        "angle": 135,
-        "secondary": false
-      },
-      {
-        "key": "AZ,TX",
-        "region1": "AZ",
-        "region2": "TX",
-        "angle": 45,
-        "secondary": false
-      },
-      {
         "key": "LA,OK",
         "region1": "LA",
         "region2": "OK",
@@ -3550,13 +3522,6 @@
         "region1": "GA",
         "region2": "VA",
         "angle": 270,
-        "secondary": false
-      },
-      {
-        "key": "FL,SC",
-        "region1": "FL",
-        "region2": "SC",
-        "angle": 315,
         "secondary": false
       }
     ],
@@ -3611,9 +3576,9 @@
     "cols": 8,
     "area": 96,
     "topology": 0.8962264150943396,
-    "topologyPrimary": 0.6698113207547169,
-    "topologySecondary": 0.22641509433962265,
-    "inaccuracy": 0.11724137931034483,
+    "topologyPrimary": 0.6132075471698113,
+    "topologySecondary": 0.2830188679245283,
+    "inaccuracy": 0.08275862068965517,
     "misdirection": 0.05263157894736842,
     "source": "nyt"
   },
@@ -4269,7 +4234,7 @@
         "region1": "ME",
         "region2": "VT",
         "angle": 135,
-        "secondary": false
+        "secondary": true
       },
       {
         "key": "NH,VT",
@@ -4311,7 +4276,7 @@
         "region1": "NH",
         "region2": "RI",
         "angle": 135,
-        "secondary": false
+        "secondary": true
       },
       {
         "key": "ID,WA",
@@ -4584,7 +4549,7 @@
         "region1": "CT",
         "region2": "MA",
         "angle": 315,
-        "secondary": false
+        "secondary": true
       },
       {
         "key": "NV,OR",
@@ -4843,7 +4808,7 @@
         "region1": "CT",
         "region2": "MD",
         "angle": 135,
-        "secondary": false
+        "secondary": true
       },
       {
         "key": "CA,UT",
@@ -4857,7 +4822,7 @@
         "region1": "AZ",
         "region2": "CA",
         "angle": 225,
-        "secondary": false
+        "secondary": true
       },
       {
         "key": "CO,UT",
@@ -5074,7 +5039,7 @@
         "region1": "DC",
         "region2": "DE",
         "angle": 315,
-        "secondary": false
+        "secondary": true
       },
       {
         "key": "AZ,NM",
@@ -5095,7 +5060,7 @@
         "region1": "NM",
         "region2": "OK",
         "angle": 45,
-        "secondary": false
+        "secondary": true
       },
       {
         "key": "AR,KS",
@@ -5228,7 +5193,7 @@
         "region1": "DC",
         "region2": "GA",
         "angle": 135,
-        "secondary": false
+        "secondary": true
       },
       {
         "key": "LA,OK",
@@ -5256,7 +5221,7 @@
         "region1": "LA",
         "region2": "TX",
         "angle": 135,
-        "secondary": false
+        "secondary": true
       },
       {
         "key": "AL,MS",
@@ -5277,7 +5242,7 @@
         "region1": "FL",
         "region2": "GA",
         "angle": 225,
-        "secondary": false
+        "secondary": true
       }
     ],
     "valid": [
@@ -5288,7 +5253,7 @@
         "realAngle": 302.3880008180061,
         "angle": 315,
         "diffAngle": -12.611999181993895,
-        "secondary": false
+        "secondary": true
       },
       {
         "key": "MA,NH",
@@ -5441,7 +5406,7 @@
         "realAngle": 216.88788547217186,
         "angle": 225,
         "diffAngle": -8.11211452782814,
-        "secondary": false
+        "secondary": true
       },
       {
         "key": "AZ,NM",
@@ -5549,7 +5514,7 @@
         "realAngle": 353.83415126165704,
         "angle": 45,
         "diffAngle": -51.16584873834296,
-        "secondary": false
+        "secondary": true
       },
       {
         "key": "UT,WY",
@@ -5738,7 +5703,7 @@
         "realAngle": 183.64664278579744,
         "angle": 135,
         "diffAngle": 48.64664278579744,
-        "secondary": false
+        "secondary": true
       },
       {
         "key": "LA,MS",
@@ -5828,7 +5793,7 @@
         "realAngle": 249.88595828318142,
         "angle": 225,
         "diffAngle": 24.885958283181424,
-        "secondary": false
+        "secondary": true
       },
       {
         "key": "GA,SC",
@@ -6076,15 +6041,6 @@
     ],
     "primary": [
       {
-        "key": "CT,MA",
-        "region1": "CT",
-        "region2": "MA",
-        "realAngle": 302.3880008180061,
-        "angle": 315,
-        "diffAngle": -12.611999181993895,
-        "secondary": false
-      },
-      {
         "key": "MA,NH",
         "region1": "MA",
         "region2": "NH",
@@ -6184,15 +6140,6 @@
         "secondary": false
       },
       {
-        "key": "AZ,CA",
-        "region1": "AZ",
-        "region2": "CA",
-        "realAngle": 216.88788547217186,
-        "angle": 225,
-        "diffAngle": -8.11211452782814,
-        "secondary": false
-      },
-      {
         "key": "AZ,NM",
         "region1": "AZ",
         "region2": "NM",
@@ -6271,15 +6218,6 @@
         "realAngle": 11.226916309177,
         "angle": 90,
         "diffAngle": -78.773083690823,
-        "secondary": false
-      },
-      {
-        "key": "NM,OK",
-        "region1": "NM",
-        "region2": "OK",
-        "realAngle": 353.83415126165704,
-        "angle": 45,
-        "diffAngle": -51.16584873834296,
         "secondary": false
       },
       {
@@ -6391,15 +6329,6 @@
         "secondary": false
       },
       {
-        "key": "LA,TX",
-        "region1": "LA",
-        "region2": "TX",
-        "realAngle": 183.64664278579744,
-        "angle": 135,
-        "diffAngle": 48.64664278579744,
-        "secondary": false
-      },
-      {
         "key": "LA,MS",
         "region1": "LA",
         "region2": "MS",
@@ -6451,15 +6380,6 @@
         "realAngle": 174.72618077893082,
         "angle": 180,
         "diffAngle": -5.273819221069175,
-        "secondary": false
-      },
-      {
-        "key": "FL,GA",
-        "region1": "FL",
-        "region2": "GA",
-        "realAngle": 249.88595828318142,
-        "angle": 225,
-        "diffAngle": 24.885958283181424,
         "secondary": false
       },
       {
@@ -6636,6 +6556,15 @@
     ],
     "secondary": [
       {
+        "key": "CT,MA",
+        "region1": "CT",
+        "region2": "MA",
+        "realAngle": 302.3880008180061,
+        "angle": 315,
+        "diffAngle": -12.611999181993895,
+        "secondary": true
+      },
+      {
         "key": "MA,VT",
         "region1": "MA",
         "region2": "VT",
@@ -6681,6 +6610,15 @@
         "secondary": true
       },
       {
+        "key": "AZ,CA",
+        "region1": "AZ",
+        "region2": "CA",
+        "realAngle": 216.88788547217186,
+        "angle": 225,
+        "diffAngle": -8.11211452782814,
+        "secondary": true
+      },
+      {
         "key": "CA,NV",
         "region1": "CA",
         "region2": "NV",
@@ -6696,6 +6634,15 @@
         "realAngle": 8.848859288702215,
         "angle": 45,
         "diffAngle": -36.151140711297785,
+        "secondary": true
+      },
+      {
+        "key": "NM,OK",
+        "region1": "NM",
+        "region2": "OK",
+        "realAngle": 353.83415126165704,
+        "angle": 45,
+        "diffAngle": -51.16584873834296,
         "secondary": true
       },
       {
@@ -6771,6 +6718,15 @@
         "secondary": true
       },
       {
+        "key": "LA,TX",
+        "region1": "LA",
+        "region2": "TX",
+        "realAngle": 183.64664278579744,
+        "angle": 135,
+        "diffAngle": 48.64664278579744,
+        "secondary": true
+      },
+      {
         "key": "CT,NY",
         "region1": "CT",
         "region2": "NY",
@@ -6795,6 +6751,15 @@
         "realAngle": 271.5515881134194,
         "angle": 225,
         "diffAngle": 46.55158811341943,
+        "secondary": true
+      },
+      {
+        "key": "FL,GA",
+        "region1": "FL",
+        "region2": "GA",
+        "realAngle": 249.88595828318142,
+        "angle": 225,
+        "diffAngle": 24.885958283181424,
         "secondary": true
       },
       {
@@ -6982,24 +6947,10 @@
     ],
     "invalid": [
       {
-        "key": "ME,VT",
-        "region1": "ME",
-        "region2": "VT",
-        "angle": 135,
-        "secondary": false
-      },
-      {
         "key": "RI,VT",
         "region1": "RI",
         "region2": "VT",
         "angle": 270,
-        "secondary": false
-      },
-      {
-        "key": "NH,RI",
-        "region1": "NH",
-        "region2": "RI",
-        "angle": 135,
         "secondary": false
       },
       {
@@ -7080,13 +7031,6 @@
         "secondary": false
       },
       {
-        "key": "CT,MD",
-        "region1": "CT",
-        "region2": "MD",
-        "angle": 135,
-        "secondary": false
-      },
-      {
         "key": "CA,UT",
         "region1": "CA",
         "region2": "UT",
@@ -7105,13 +7049,6 @@
         "region1": "SC",
         "region2": "VA",
         "angle": 270,
-        "secondary": false
-      },
-      {
-        "key": "DC,DE",
-        "region1": "DC",
-        "region2": "DE",
-        "angle": 315,
         "secondary": false
       },
       {
@@ -7140,13 +7077,6 @@
         "region1": "DC",
         "region2": "SC",
         "angle": 180,
-        "secondary": false
-      },
-      {
-        "key": "DC,GA",
-        "region1": "DC",
-        "region2": "GA",
-        "angle": 135,
         "secondary": false
       },
       {
@@ -7237,7 +7167,7 @@
         "realAngle": 183.64664278579744,
         "angle": 135,
         "diffAngle": 48.64664278579744,
-        "secondary": false
+        "secondary": true
       },
       {
         "key": "AL,TN",
@@ -7253,9 +7183,9 @@
     "cols": 8,
     "area": 96,
     "topology": 0.8301886792452831,
-    "topologyPrimary": 0.5849056603773585,
-    "topologySecondary": 0.24528301886792453,
-    "inaccuracy": 0.17123287671232876,
+    "topologyPrimary": 0.5377358490566038,
+    "topologySecondary": 0.29245283018867924,
+    "inaccuracy": 0.136986301369863,
     "misdirection": 0.11363636363636363,
     "source": "npr"
   },
@@ -7911,7 +7841,7 @@
         "region1": "ME",
         "region2": "VT",
         "angle": 135,
-        "secondary": false
+        "secondary": true
       },
       {
         "key": "NH,VT",
@@ -7953,7 +7883,7 @@
         "region1": "MA",
         "region2": "NH",
         "angle": 315,
-        "secondary": false
+        "secondary": true
       },
       {
         "key": "MN,ND",
@@ -7995,7 +7925,7 @@
         "region1": "MN",
         "region2": "WI",
         "angle": 45,
-        "secondary": false
+        "secondary": true
       },
       {
         "key": "MN,SD",
@@ -8079,7 +8009,7 @@
         "region1": "CT",
         "region2": "RI",
         "angle": 315,
-        "secondary": false
+        "secondary": true
       },
       {
         "key": "ID,WA",
@@ -8254,7 +8184,7 @@
         "region1": "MI",
         "region2": "OH",
         "angle": 45,
-        "secondary": false
+        "secondary": true
       },
       {
         "key": "IL,MI",
@@ -8331,7 +8261,7 @@
         "region1": "CT",
         "region2": "DC",
         "angle": 135,
-        "secondary": false
+        "secondary": true
       },
       {
         "key": "NV,OR",
@@ -8583,7 +8513,7 @@
         "region1": "DC",
         "region2": "NC",
         "angle": 135,
-        "secondary": false
+        "secondary": true
       },
       {
         "key": "CA,UT",
@@ -8597,7 +8527,7 @@
         "region1": "AZ",
         "region2": "CA",
         "angle": 225,
-        "secondary": false
+        "secondary": true
       },
       {
         "key": "CO,UT",
@@ -8800,7 +8730,7 @@
         "region1": "GA",
         "region2": "NC",
         "angle": 315,
-        "secondary": false
+        "secondary": true
       },
       {
         "key": "AZ,NM",
@@ -8821,7 +8751,7 @@
         "region1": "NM",
         "region2": "TX",
         "angle": 45,
-        "secondary": false
+        "secondary": true
       },
       {
         "key": "LA,OK",
@@ -8849,7 +8779,7 @@
         "region1": "LA",
         "region2": "TX",
         "angle": 135,
-        "secondary": false
+        "secondary": true
       },
       {
         "key": "AL,MS",
@@ -8870,7 +8800,7 @@
         "region1": "AL",
         "region2": "FL",
         "angle": 45,
-        "secondary": false
+        "secondary": true
       },
       {
         "key": "GA,SC",
@@ -8891,7 +8821,7 @@
         "region1": "FL",
         "region2": "SC",
         "angle": 315,
-        "secondary": false
+        "secondary": true
       }
     ],
     "valid": [
@@ -8911,7 +8841,7 @@
         "realAngle": 262.2496062858172,
         "angle": 315,
         "diffAngle": -52.75039371418279,
-        "secondary": false
+        "secondary": true
       },
       {
         "key": "MA,RI",
@@ -8965,7 +8895,7 @@
         "realAngle": 26.294308604088314,
         "angle": 45,
         "diffAngle": -18.705691395911686,
-        "secondary": false
+        "secondary": true
       },
       {
         "key": "MT,ND",
@@ -9064,7 +8994,7 @@
         "realAngle": 216.88788547217186,
         "angle": 225,
         "diffAngle": -8.11211452782814,
-        "secondary": false
+        "secondary": true
       },
       {
         "key": "AZ,NM",
@@ -9190,7 +9120,7 @@
         "realAngle": 31.488401695177686,
         "angle": 45,
         "diffAngle": -13.511598304822314,
-        "secondary": false
+        "secondary": true
       },
       {
         "key": "UT,WY",
@@ -9388,7 +9318,7 @@
         "realAngle": 183.64664278579744,
         "angle": 135,
         "diffAngle": 48.64664278579744,
-        "secondary": false
+        "secondary": true
       },
       {
         "key": "LA,MS",
@@ -9406,7 +9336,7 @@
         "realAngle": 340.95169757762886,
         "angle": 315,
         "diffAngle": 25.951697577628863,
-        "secondary": false
+        "secondary": true
       },
       {
         "key": "NH,VT",
@@ -9433,7 +9363,7 @@
         "realAngle": 40.86661362660044,
         "angle": 45,
         "diffAngle": -4.13338637339956,
-        "secondary": false
+        "secondary": true
       },
       {
         "key": "AL,GA",
@@ -9487,7 +9417,7 @@
         "realAngle": 309.9043309071484,
         "angle": 315,
         "diffAngle": -5.095669092851608,
-        "secondary": false
+        "secondary": true
       },
       {
         "key": "MS,TN",
@@ -9622,7 +9552,7 @@
         "realAngle": 57.669201726778965,
         "angle": 45,
         "diffAngle": 12.669201726778965,
-        "secondary": false
+        "secondary": true
       },
       {
         "key": "VA,WV",
@@ -9717,15 +9647,6 @@
         "secondary": false
       },
       {
-        "key": "MA,NH",
-        "region1": "MA",
-        "region2": "NH",
-        "realAngle": 262.2496062858172,
-        "angle": 315,
-        "diffAngle": -52.75039371418279,
-        "secondary": false
-      },
-      {
         "key": "MA,RI",
         "region1": "MA",
         "region2": "RI",
@@ -9759,15 +9680,6 @@
         "realAngle": 260.77867646627163,
         "angle": 270,
         "diffAngle": -9.221323533728366,
-        "secondary": false
-      },
-      {
-        "key": "MN,WI",
-        "region1": "MN",
-        "region2": "WI",
-        "realAngle": 26.294308604088314,
-        "angle": 45,
-        "diffAngle": -18.705691395911686,
         "secondary": false
       },
       {
@@ -9831,15 +9743,6 @@
         "realAngle": 286.25058989883155,
         "angle": 270,
         "diffAngle": 16.25058989883155,
-        "secondary": false
-      },
-      {
-        "key": "AZ,CA",
-        "region1": "AZ",
-        "region2": "CA",
-        "realAngle": 216.88788547217186,
-        "angle": 225,
-        "diffAngle": -8.11211452782814,
         "secondary": false
       },
       {
@@ -9930,15 +9833,6 @@
         "realAngle": 353.83415126165704,
         "angle": 0,
         "diffAngle": -6.165848738342902,
-        "secondary": false
-      },
-      {
-        "key": "NM,TX",
-        "region1": "NM",
-        "region2": "TX",
-        "realAngle": 31.488401695177686,
-        "angle": 45,
-        "diffAngle": -13.511598304822314,
         "secondary": false
       },
       {
@@ -10059,30 +9953,12 @@
         "secondary": false
       },
       {
-        "key": "LA,TX",
-        "region1": "LA",
-        "region2": "TX",
-        "realAngle": 183.64664278579744,
-        "angle": 135,
-        "diffAngle": 48.64664278579744,
-        "secondary": false
-      },
-      {
         "key": "LA,MS",
         "region1": "LA",
         "region2": "MS",
         "realAngle": 316.3009008588238,
         "angle": 0,
         "diffAngle": -43.69909914117619,
-        "secondary": false
-      },
-      {
-        "key": "CT,RI",
-        "region1": "CT",
-        "region2": "RI",
-        "realAngle": 340.95169757762886,
-        "angle": 315,
-        "diffAngle": 25.951697577628863,
         "secondary": false
       },
       {
@@ -10101,15 +9977,6 @@
         "realAngle": 118.84255900833648,
         "angle": 90,
         "diffAngle": 28.84255900833648,
-        "secondary": false
-      },
-      {
-        "key": "AL,FL",
-        "region1": "AL",
-        "region2": "FL",
-        "realAngle": 40.86661362660044,
-        "angle": 45,
-        "diffAngle": -4.13338637339956,
         "secondary": false
       },
       {
@@ -10146,15 +10013,6 @@
         "realAngle": 320.82734312044,
         "angle": 0,
         "diffAngle": -39.17265687956001,
-        "secondary": false
-      },
-      {
-        "key": "GA,NC",
-        "region1": "GA",
-        "region2": "NC",
-        "realAngle": 309.9043309071484,
-        "angle": 315,
-        "diffAngle": -5.095669092851608,
         "secondary": false
       },
       {
@@ -10257,15 +10115,6 @@
         "secondary": false
       },
       {
-        "key": "MI,OH",
-        "region1": "MI",
-        "region2": "OH",
-        "realAngle": 57.669201726778965,
-        "angle": 45,
-        "diffAngle": 12.669201726778965,
-        "secondary": false
-      },
-      {
         "key": "DC,VA",
         "region1": "DC",
         "region2": "VA",
@@ -10322,12 +10171,30 @@
     ],
     "secondary": [
       {
+        "key": "MA,NH",
+        "region1": "MA",
+        "region2": "NH",
+        "realAngle": 262.2496062858172,
+        "angle": 315,
+        "diffAngle": -52.75039371418279,
+        "secondary": true
+      },
+      {
         "key": "MN,SD",
         "region1": "MN",
         "region2": "SD",
         "realAngle": 157.05276493900874,
         "angle": 135,
         "diffAngle": 22.05276493900874,
+        "secondary": true
+      },
+      {
+        "key": "MN,WI",
+        "region1": "MN",
+        "region2": "WI",
+        "realAngle": 26.294308604088314,
+        "angle": 45,
+        "diffAngle": -18.705691395911686,
         "secondary": true
       },
       {
@@ -10358,6 +10225,15 @@
         "secondary": true
       },
       {
+        "key": "AZ,CA",
+        "region1": "AZ",
+        "region2": "CA",
+        "realAngle": 216.88788547217186,
+        "angle": 225,
+        "diffAngle": -8.11211452782814,
+        "secondary": true
+      },
+      {
         "key": "CA,NV",
         "region1": "CA",
         "region2": "NV",
@@ -10382,6 +10258,15 @@
         "realAngle": 31.782099539609078,
         "angle": 45,
         "diffAngle": -13.217900460390922,
+        "secondary": true
+      },
+      {
+        "key": "NM,TX",
+        "region1": "NM",
+        "region2": "TX",
+        "realAngle": 31.488401695177686,
+        "angle": 45,
+        "diffAngle": -13.511598304822314,
         "secondary": true
       },
       {
@@ -10457,12 +10342,48 @@
         "secondary": true
       },
       {
+        "key": "LA,TX",
+        "region1": "LA",
+        "region2": "TX",
+        "realAngle": 183.64664278579744,
+        "angle": 135,
+        "diffAngle": 48.64664278579744,
+        "secondary": true
+      },
+      {
+        "key": "CT,RI",
+        "region1": "CT",
+        "region2": "RI",
+        "realAngle": 340.95169757762886,
+        "angle": 315,
+        "diffAngle": 25.951697577628863,
+        "secondary": true
+      },
+      {
+        "key": "AL,FL",
+        "region1": "AL",
+        "region2": "FL",
+        "realAngle": 40.86661362660044,
+        "angle": 45,
+        "diffAngle": -4.13338637339956,
+        "secondary": true
+      },
+      {
         "key": "AL,TN",
         "region1": "AL",
         "region2": "TN",
         "realAngle": 271.5515881134194,
         "angle": 225,
         "diffAngle": 46.55158811341943,
+        "secondary": true
+      },
+      {
+        "key": "GA,NC",
+        "region1": "GA",
+        "region2": "NC",
+        "realAngle": 309.9043309071484,
+        "angle": 315,
+        "diffAngle": -5.095669092851608,
         "secondary": true
       },
       {
@@ -10490,6 +10411,15 @@
         "realAngle": 341.4255451648234,
         "angle": 315,
         "diffAngle": 26.425545164823404,
+        "secondary": true
+      },
+      {
+        "key": "MI,OH",
+        "region1": "MI",
+        "region2": "OH",
+        "realAngle": 57.669201726778965,
+        "angle": 45,
+        "diffAngle": 12.669201726778965,
         "secondary": true
       },
       {
@@ -10620,13 +10550,6 @@
     ],
     "invalid": [
       {
-        "key": "ME,VT",
-        "region1": "ME",
-        "region2": "VT",
-        "angle": 135,
-        "secondary": false
-      },
-      {
         "key": "NH,RI",
         "region1": "NH",
         "region2": "RI",
@@ -10676,13 +10599,6 @@
         "secondary": false
       },
       {
-        "key": "CT,DC",
-        "region1": "CT",
-        "region2": "DC",
-        "angle": 135,
-        "secondary": false
-      },
-      {
         "key": "NV,WY",
         "region1": "NV",
         "region2": "WY",
@@ -10701,13 +10617,6 @@
         "region1": "OH",
         "region2": "VA",
         "angle": 0,
-        "secondary": false
-      },
-      {
-        "key": "DC,NC",
-        "region1": "DC",
-        "region2": "NC",
-        "angle": 135,
         "secondary": false
       },
       {
@@ -10750,13 +10659,6 @@
         "region1": "LA",
         "region2": "OK",
         "angle": 180,
-        "secondary": false
-      },
-      {
-        "key": "FL,SC",
-        "region1": "FL",
-        "region2": "SC",
-        "angle": 315,
         "secondary": false
       }
     ],
@@ -10849,7 +10751,7 @@
         "realAngle": 183.64664278579744,
         "angle": 135,
         "diffAngle": 48.64664278579744,
-        "secondary": false
+        "secondary": true
       },
       {
         "key": "AL,TN",
@@ -10865,9 +10767,9 @@
     "cols": 8,
     "area": 104,
     "topology": 0.8490566037735849,
-    "topologyPrimary": 0.6415094339622641,
-    "topologySecondary": 0.20754716981132076,
-    "inaccuracy": 0.14084507042253522,
+    "topologyPrimary": 0.5566037735849056,
+    "topologySecondary": 0.29245283018867924,
+    "inaccuracy": 0.11267605633802817,
     "misdirection": 0.12222222222222222,
     "source": "guardian"
   },
@@ -11523,7 +11425,7 @@
         "region1": "ME",
         "region2": "VT",
         "angle": 135,
-        "secondary": false
+        "secondary": true
       },
       {
         "key": "IL,WI",
@@ -11537,7 +11439,7 @@
         "region1": "MI",
         "region2": "WI",
         "angle": 225,
-        "secondary": false
+        "secondary": true
       },
       {
         "key": "MN,WI",
@@ -11572,7 +11474,7 @@
         "region1": "MA",
         "region2": "NH",
         "angle": 315,
-        "secondary": false
+        "secondary": true
       },
       {
         "key": "ID,WA",
@@ -11747,7 +11649,7 @@
         "region1": "MI",
         "region2": "PA",
         "angle": 45,
-        "secondary": false
+        "secondary": true
       },
       {
         "key": "IN,MI",
@@ -11796,7 +11698,7 @@
         "region1": "MA",
         "region2": "RI",
         "angle": 45,
-        "secondary": false
+        "secondary": true
       },
       {
         "key": "MA,NJ",
@@ -12076,7 +11978,7 @@
         "region1": "DE",
         "region2": "RI",
         "angle": 315,
-        "secondary": false
+        "secondary": true
       },
       {
         "key": "CA,UT",
@@ -12090,7 +11992,7 @@
         "region1": "AZ",
         "region2": "CA",
         "angle": 225,
-        "secondary": false
+        "secondary": true
       },
       {
         "key": "CO,UT",
@@ -12307,7 +12209,7 @@
         "region1": "DC",
         "region2": "DE",
         "angle": 315,
-        "secondary": false
+        "secondary": true
       },
       {
         "key": "AZ,NM",
@@ -12328,7 +12230,7 @@
         "region1": "NM",
         "region2": "OK",
         "angle": 45,
-        "secondary": false
+        "secondary": true
       },
       {
         "key": "AR,KS",
@@ -12461,7 +12363,7 @@
         "region1": "DC",
         "region2": "GA",
         "angle": 135,
-        "secondary": false
+        "secondary": true
       },
       {
         "key": "LA,OK",
@@ -12489,7 +12391,7 @@
         "region1": "LA",
         "region2": "TX",
         "angle": 135,
-        "secondary": false
+        "secondary": true
       },
       {
         "key": "AL,MS",
@@ -12510,7 +12412,7 @@
         "region1": "FL",
         "region2": "GA",
         "angle": 225,
-        "secondary": false
+        "secondary": true
       },
       {
         "key": "AK,HI",
@@ -12537,7 +12439,7 @@
         "realAngle": 262.2496062858172,
         "angle": 315,
         "diffAngle": -52.75039371418279,
-        "secondary": false
+        "secondary": true
       },
       {
         "key": "MA,RI",
@@ -12546,7 +12448,7 @@
         "realAngle": 61.03046285648611,
         "angle": 45,
         "diffAngle": 16.03046285648611,
-        "secondary": false
+        "secondary": true
       },
       {
         "key": "MA,VT",
@@ -12699,7 +12601,7 @@
         "realAngle": 216.88788547217186,
         "angle": 225,
         "diffAngle": -8.11211452782814,
-        "secondary": false
+        "secondary": true
       },
       {
         "key": "AZ,NM",
@@ -12807,7 +12709,7 @@
         "realAngle": 353.83415126165704,
         "angle": 45,
         "diffAngle": -51.16584873834296,
-        "secondary": false
+        "secondary": true
       },
       {
         "key": "UT,WY",
@@ -12996,7 +12898,7 @@
         "realAngle": 183.64664278579744,
         "angle": 135,
         "diffAngle": 48.64664278579744,
-        "secondary": false
+        "secondary": true
       },
       {
         "key": "LA,MS",
@@ -13086,7 +12988,7 @@
         "realAngle": 249.88595828318142,
         "angle": 225,
         "diffAngle": 24.885958283181424,
-        "secondary": false
+        "secondary": true
       },
       {
         "key": "GA,SC",
@@ -13275,7 +13177,7 @@
         "realAngle": 180.51358437620348,
         "angle": 225,
         "diffAngle": -44.48641562379652,
-        "secondary": false
+        "secondary": true
       },
       {
         "key": "PA,WV",
@@ -13352,24 +13254,6 @@
         "secondary": false
       },
       {
-        "key": "MA,NH",
-        "region1": "MA",
-        "region2": "NH",
-        "realAngle": 262.2496062858172,
-        "angle": 315,
-        "diffAngle": -52.75039371418279,
-        "secondary": false
-      },
-      {
-        "key": "MA,RI",
-        "region1": "MA",
-        "region2": "RI",
-        "realAngle": 61.03046285648611,
-        "angle": 45,
-        "diffAngle": 16.03046285648611,
-        "secondary": false
-      },
-      {
         "key": "MA,VT",
         "region1": "MA",
         "region2": "VT",
@@ -13469,15 +13353,6 @@
         "secondary": false
       },
       {
-        "key": "AZ,CA",
-        "region1": "AZ",
-        "region2": "CA",
-        "realAngle": 216.88788547217186,
-        "angle": 225,
-        "diffAngle": -8.11211452782814,
-        "secondary": false
-      },
-      {
         "key": "AZ,NM",
         "region1": "AZ",
         "region2": "NM",
@@ -13556,15 +13431,6 @@
         "realAngle": 11.226916309177,
         "angle": 90,
         "diffAngle": -78.773083690823,
-        "secondary": false
-      },
-      {
-        "key": "NM,OK",
-        "region1": "NM",
-        "region2": "OK",
-        "realAngle": 353.83415126165704,
-        "angle": 45,
-        "diffAngle": -51.16584873834296,
         "secondary": false
       },
       {
@@ -13676,15 +13542,6 @@
         "secondary": false
       },
       {
-        "key": "LA,TX",
-        "region1": "LA",
-        "region2": "TX",
-        "realAngle": 183.64664278579744,
-        "angle": 135,
-        "diffAngle": 48.64664278579744,
-        "secondary": false
-      },
-      {
         "key": "LA,MS",
         "region1": "LA",
         "region2": "MS",
@@ -13736,15 +13593,6 @@
         "realAngle": 174.72618077893082,
         "angle": 180,
         "diffAngle": -5.273819221069175,
-        "secondary": false
-      },
-      {
-        "key": "FL,GA",
-        "region1": "FL",
-        "region2": "GA",
-        "realAngle": 249.88595828318142,
-        "angle": 225,
-        "diffAngle": 24.885958283181424,
         "secondary": false
       },
       {
@@ -13883,15 +13731,6 @@
         "secondary": false
       },
       {
-        "key": "MI,WI",
-        "region1": "MI",
-        "region2": "WI",
-        "realAngle": 180.51358437620348,
-        "angle": 225,
-        "diffAngle": -44.48641562379652,
-        "secondary": false
-      },
-      {
         "key": "DE,MD",
         "region1": "DE",
         "region2": "MD",
@@ -13929,6 +13768,24 @@
       }
     ],
     "secondary": [
+      {
+        "key": "MA,NH",
+        "region1": "MA",
+        "region2": "NH",
+        "realAngle": 262.2496062858172,
+        "angle": 315,
+        "diffAngle": -52.75039371418279,
+        "secondary": true
+      },
+      {
+        "key": "MA,RI",
+        "region1": "MA",
+        "region2": "RI",
+        "realAngle": 61.03046285648611,
+        "angle": 45,
+        "diffAngle": 16.03046285648611,
+        "secondary": true
+      },
       {
         "key": "MN,SD",
         "region1": "MN",
@@ -13975,6 +13832,15 @@
         "secondary": true
       },
       {
+        "key": "AZ,CA",
+        "region1": "AZ",
+        "region2": "CA",
+        "realAngle": 216.88788547217186,
+        "angle": 225,
+        "diffAngle": -8.11211452782814,
+        "secondary": true
+      },
+      {
         "key": "CA,NV",
         "region1": "CA",
         "region2": "NV",
@@ -13990,6 +13856,15 @@
         "realAngle": 8.848859288702215,
         "angle": 45,
         "diffAngle": -36.151140711297785,
+        "secondary": true
+      },
+      {
+        "key": "NM,OK",
+        "region1": "NM",
+        "region2": "OK",
+        "realAngle": 353.83415126165704,
+        "angle": 45,
+        "diffAngle": -51.16584873834296,
         "secondary": true
       },
       {
@@ -14065,6 +13940,15 @@
         "secondary": true
       },
       {
+        "key": "LA,TX",
+        "region1": "LA",
+        "region2": "TX",
+        "realAngle": 183.64664278579744,
+        "angle": 135,
+        "diffAngle": 48.64664278579744,
+        "secondary": true
+      },
+      {
         "key": "CT,NY",
         "region1": "CT",
         "region2": "NY",
@@ -14089,6 +13973,15 @@
         "realAngle": 271.5515881134194,
         "angle": 225,
         "diffAngle": 46.55158811341943,
+        "secondary": true
+      },
+      {
+        "key": "FL,GA",
+        "region1": "FL",
+        "region2": "GA",
+        "realAngle": 249.88595828318142,
+        "angle": 225,
+        "diffAngle": 24.885958283181424,
         "secondary": true
       },
       {
@@ -14134,6 +14027,15 @@
         "realAngle": 125.30177591995789,
         "angle": 225,
         "diffAngle": -99.69822408004211,
+        "secondary": true
+      },
+      {
+        "key": "MI,WI",
+        "region1": "MI",
+        "region2": "WI",
+        "realAngle": 180.51358437620348,
+        "angle": 225,
+        "diffAngle": -44.48641562379652,
         "secondary": true
       },
       {
@@ -14258,13 +14160,6 @@
     ],
     "invalid": [
       {
-        "key": "ME,VT",
-        "region1": "ME",
-        "region2": "VT",
-        "angle": 135,
-        "secondary": false
-      },
-      {
         "key": "IL,MN",
         "region1": "IL",
         "region2": "MN",
@@ -14276,13 +14171,6 @@
         "region1": "IL",
         "region2": "MI",
         "angle": 0,
-        "secondary": false
-      },
-      {
-        "key": "MI,PA",
-        "region1": "MI",
-        "region2": "PA",
-        "angle": 45,
         "secondary": false
       },
       {
@@ -14328,13 +14216,6 @@
         "secondary": false
       },
       {
-        "key": "DE,RI",
-        "region1": "DE",
-        "region2": "RI",
-        "angle": 315,
-        "secondary": false
-      },
-      {
         "key": "CA,UT",
         "region1": "CA",
         "region2": "UT",
@@ -14353,13 +14234,6 @@
         "region1": "SC",
         "region2": "VA",
         "angle": 270,
-        "secondary": false
-      },
-      {
-        "key": "DC,DE",
-        "region1": "DC",
-        "region2": "DE",
-        "angle": 315,
         "secondary": false
       },
       {
@@ -14388,13 +14262,6 @@
         "region1": "DC",
         "region2": "SC",
         "angle": 180,
-        "secondary": false
-      },
-      {
-        "key": "DC,GA",
-        "region1": "DC",
-        "region2": "GA",
-        "angle": 135,
         "secondary": false
       },
       {
@@ -14483,7 +14350,7 @@
         "realAngle": 183.64664278579744,
         "angle": 135,
         "diffAngle": 48.64664278579744,
-        "secondary": false
+        "secondary": true
       },
       {
         "key": "AL,TN",
@@ -14499,9 +14366,9 @@
     "cols": 8,
     "area": 96,
     "topology": 0.8584905660377359,
-    "topologyPrimary": 0.6132075471698113,
-    "topologySecondary": 0.24528301886792453,
-    "inaccuracy": 0.1527777777777778,
+    "topologyPrimary": 0.5471698113207547,
+    "topologySecondary": 0.3113207547169811,
+    "inaccuracy": 0.11805555555555555,
     "misdirection": 0.0989010989010989,
     "source": "wp"
   },
@@ -15145,7 +15012,7 @@
         "region1": "ME",
         "region2": "VT",
         "angle": 135,
-        "secondary": false
+        "secondary": true
       },
       {
         "key": "IL,WI",
@@ -15159,7 +15026,7 @@
         "region1": "MI",
         "region2": "WI",
         "angle": 225,
-        "secondary": false
+        "secondary": true
       },
       {
         "key": "MN,WI",
@@ -15194,7 +15061,7 @@
         "region1": "MA",
         "region2": "NH",
         "angle": 315,
-        "secondary": false
+        "secondary": true
       },
       {
         "key": "ID,WA",
@@ -15369,7 +15236,7 @@
         "region1": "MI",
         "region2": "PA",
         "angle": 45,
-        "secondary": false
+        "secondary": true
       },
       {
         "key": "IN,MI",
@@ -15418,7 +15285,7 @@
         "region1": "MA",
         "region2": "RI",
         "angle": 45,
-        "secondary": false
+        "secondary": true
       },
       {
         "key": "MA,NJ",
@@ -15698,7 +15565,7 @@
         "region1": "DE",
         "region2": "RI",
         "angle": 315,
-        "secondary": false
+        "secondary": true
       },
       {
         "key": "CA,UT",
@@ -15712,7 +15579,7 @@
         "region1": "AZ",
         "region2": "CA",
         "angle": 225,
-        "secondary": false
+        "secondary": true
       },
       {
         "key": "CO,UT",
@@ -15908,7 +15775,7 @@
         "region1": "MD",
         "region2": "SC",
         "angle": 135,
-        "secondary": false
+        "secondary": true
       },
       {
         "key": "AZ,NM",
@@ -15929,7 +15796,7 @@
         "region1": "NM",
         "region2": "OK",
         "angle": 45,
-        "secondary": false
+        "secondary": true
       },
       {
         "key": "AR,KS",
@@ -16048,7 +15915,7 @@
         "region1": "AL",
         "region2": "SC",
         "angle": 315,
-        "secondary": false
+        "secondary": true
       },
       {
         "key": "LA,OK",
@@ -16076,7 +15943,7 @@
         "region1": "LA",
         "region2": "TX",
         "angle": 135,
-        "secondary": false
+        "secondary": true
       },
       {
         "key": "AL,MS",
@@ -16097,7 +15964,7 @@
         "region1": "FL",
         "region2": "GA",
         "angle": 225,
-        "secondary": false
+        "secondary": true
       },
       {
         "key": "AK,HI",
@@ -16124,7 +15991,7 @@
         "realAngle": 262.2496062858172,
         "angle": 315,
         "diffAngle": -52.75039371418279,
-        "secondary": false
+        "secondary": true
       },
       {
         "key": "MA,RI",
@@ -16133,7 +16000,7 @@
         "realAngle": 61.03046285648611,
         "angle": 45,
         "diffAngle": 16.03046285648611,
-        "secondary": false
+        "secondary": true
       },
       {
         "key": "MA,VT",
@@ -16286,7 +16153,7 @@
         "realAngle": 216.88788547217186,
         "angle": 225,
         "diffAngle": -8.11211452782814,
-        "secondary": false
+        "secondary": true
       },
       {
         "key": "AZ,NM",
@@ -16394,7 +16261,7 @@
         "realAngle": 353.83415126165704,
         "angle": 45,
         "diffAngle": -51.16584873834296,
-        "secondary": false
+        "secondary": true
       },
       {
         "key": "UT,WY",
@@ -16583,7 +16450,7 @@
         "realAngle": 183.64664278579744,
         "angle": 135,
         "diffAngle": 48.64664278579744,
-        "secondary": false
+        "secondary": true
       },
       {
         "key": "LA,MS",
@@ -16673,7 +16540,7 @@
         "realAngle": 249.88595828318142,
         "angle": 225,
         "diffAngle": 24.885958283181424,
-        "secondary": false
+        "secondary": true
       },
       {
         "key": "GA,SC",
@@ -16853,7 +16720,7 @@
         "realAngle": 180.51358437620348,
         "angle": 225,
         "diffAngle": -44.48641562379652,
-        "secondary": false
+        "secondary": true
       },
       {
         "key": "PA,WV",
@@ -16921,24 +16788,6 @@
         "secondary": false
       },
       {
-        "key": "MA,NH",
-        "region1": "MA",
-        "region2": "NH",
-        "realAngle": 262.2496062858172,
-        "angle": 315,
-        "diffAngle": -52.75039371418279,
-        "secondary": false
-      },
-      {
-        "key": "MA,RI",
-        "region1": "MA",
-        "region2": "RI",
-        "realAngle": 61.03046285648611,
-        "angle": 45,
-        "diffAngle": 16.03046285648611,
-        "secondary": false
-      },
-      {
         "key": "MA,VT",
         "region1": "MA",
         "region2": "VT",
@@ -17038,15 +16887,6 @@
         "secondary": false
       },
       {
-        "key": "AZ,CA",
-        "region1": "AZ",
-        "region2": "CA",
-        "realAngle": 216.88788547217186,
-        "angle": 225,
-        "diffAngle": -8.11211452782814,
-        "secondary": false
-      },
-      {
         "key": "AZ,NM",
         "region1": "AZ",
         "region2": "NM",
@@ -17125,15 +16965,6 @@
         "realAngle": 11.226916309177,
         "angle": 90,
         "diffAngle": -78.773083690823,
-        "secondary": false
-      },
-      {
-        "key": "NM,OK",
-        "region1": "NM",
-        "region2": "OK",
-        "realAngle": 353.83415126165704,
-        "angle": 45,
-        "diffAngle": -51.16584873834296,
         "secondary": false
       },
       {
@@ -17245,15 +17076,6 @@
         "secondary": false
       },
       {
-        "key": "LA,TX",
-        "region1": "LA",
-        "region2": "TX",
-        "realAngle": 183.64664278579744,
-        "angle": 135,
-        "diffAngle": 48.64664278579744,
-        "secondary": false
-      },
-      {
         "key": "LA,MS",
         "region1": "LA",
         "region2": "MS",
@@ -17305,15 +17127,6 @@
         "realAngle": 174.72618077893082,
         "angle": 180,
         "diffAngle": -5.273819221069175,
-        "secondary": false
-      },
-      {
-        "key": "FL,GA",
-        "region1": "FL",
-        "region2": "GA",
-        "realAngle": 249.88595828318142,
-        "angle": 225,
-        "diffAngle": 24.885958283181424,
         "secondary": false
       },
       {
@@ -17452,15 +17265,6 @@
         "secondary": false
       },
       {
-        "key": "MI,WI",
-        "region1": "MI",
-        "region2": "WI",
-        "realAngle": 180.51358437620348,
-        "angle": 225,
-        "diffAngle": -44.48641562379652,
-        "secondary": false
-      },
-      {
         "key": "DE,MD",
         "region1": "DE",
         "region2": "MD",
@@ -17489,6 +17293,24 @@
       }
     ],
     "secondary": [
+      {
+        "key": "MA,NH",
+        "region1": "MA",
+        "region2": "NH",
+        "realAngle": 262.2496062858172,
+        "angle": 315,
+        "diffAngle": -52.75039371418279,
+        "secondary": true
+      },
+      {
+        "key": "MA,RI",
+        "region1": "MA",
+        "region2": "RI",
+        "realAngle": 61.03046285648611,
+        "angle": 45,
+        "diffAngle": 16.03046285648611,
+        "secondary": true
+      },
       {
         "key": "MN,SD",
         "region1": "MN",
@@ -17535,6 +17357,15 @@
         "secondary": true
       },
       {
+        "key": "AZ,CA",
+        "region1": "AZ",
+        "region2": "CA",
+        "realAngle": 216.88788547217186,
+        "angle": 225,
+        "diffAngle": -8.11211452782814,
+        "secondary": true
+      },
+      {
         "key": "CA,NV",
         "region1": "CA",
         "region2": "NV",
@@ -17550,6 +17381,15 @@
         "realAngle": 8.848859288702215,
         "angle": 45,
         "diffAngle": -36.151140711297785,
+        "secondary": true
+      },
+      {
+        "key": "NM,OK",
+        "region1": "NM",
+        "region2": "OK",
+        "realAngle": 353.83415126165704,
+        "angle": 45,
+        "diffAngle": -51.16584873834296,
         "secondary": true
       },
       {
@@ -17625,6 +17465,15 @@
         "secondary": true
       },
       {
+        "key": "LA,TX",
+        "region1": "LA",
+        "region2": "TX",
+        "realAngle": 183.64664278579744,
+        "angle": 135,
+        "diffAngle": 48.64664278579744,
+        "secondary": true
+      },
+      {
         "key": "CT,NY",
         "region1": "CT",
         "region2": "NY",
@@ -17649,6 +17498,15 @@
         "realAngle": 271.5515881134194,
         "angle": 225,
         "diffAngle": 46.55158811341943,
+        "secondary": true
+      },
+      {
+        "key": "FL,GA",
+        "region1": "FL",
+        "region2": "GA",
+        "realAngle": 249.88595828318142,
+        "angle": 225,
+        "diffAngle": 24.885958283181424,
         "secondary": true
       },
       {
@@ -17685,6 +17543,15 @@
         "realAngle": 272.35410421896927,
         "angle": 315,
         "diffAngle": -42.64589578103073,
+        "secondary": true
+      },
+      {
+        "key": "MI,WI",
+        "region1": "MI",
+        "region2": "WI",
+        "realAngle": 180.51358437620348,
+        "angle": 225,
+        "diffAngle": -44.48641562379652,
         "secondary": true
       },
       {
@@ -17809,13 +17676,6 @@
     ],
     "invalid": [
       {
-        "key": "ME,VT",
-        "region1": "ME",
-        "region2": "VT",
-        "angle": 135,
-        "secondary": false
-      },
-      {
         "key": "IL,MN",
         "region1": "IL",
         "region2": "MN",
@@ -17827,13 +17687,6 @@
         "region1": "IL",
         "region2": "MI",
         "angle": 0,
-        "secondary": false
-      },
-      {
-        "key": "MI,PA",
-        "region1": "MI",
-        "region2": "PA",
-        "angle": 45,
         "secondary": false
       },
       {
@@ -17879,13 +17732,6 @@
         "secondary": false
       },
       {
-        "key": "DE,RI",
-        "region1": "DE",
-        "region2": "RI",
-        "angle": 315,
-        "secondary": false
-      },
-      {
         "key": "CA,UT",
         "region1": "CA",
         "region2": "UT",
@@ -17907,13 +17753,6 @@
         "secondary": false
       },
       {
-        "key": "MD,SC",
-        "region1": "MD",
-        "region2": "SC",
-        "angle": 135,
-        "secondary": false
-      },
-      {
         "key": "KS,NM",
         "region1": "KS",
         "region2": "NM",
@@ -17932,13 +17771,6 @@
         "region1": "AL",
         "region2": "NC",
         "angle": 270,
-        "secondary": false
-      },
-      {
-        "key": "AL,SC",
-        "region1": "AL",
-        "region2": "SC",
-        "angle": 315,
         "secondary": false
       },
       {
@@ -18027,7 +17859,7 @@
         "realAngle": 183.64664278579744,
         "angle": 135,
         "diffAngle": 48.64664278579744,
-        "secondary": false
+        "secondary": true
       },
       {
         "key": "AL,TN",
@@ -18043,9 +17875,9 @@
     "cols": 8,
     "area": 88,
     "topology": 0.8557692307692307,
-    "topologyPrimary": 0.6153846153846154,
-    "topologySecondary": 0.2403846153846154,
-    "inaccuracy": 0.1510791366906475,
+    "topologyPrimary": 0.5480769230769231,
+    "topologySecondary": 0.3076923076923077,
+    "inaccuracy": 0.11510791366906475,
     "misdirection": 0.10112359550561797,
     "source": "fivethirtyeight"
   },
@@ -18689,14 +18521,14 @@
         "region1": "ME",
         "region2": "VT",
         "angle": 135,
-        "secondary": false
+        "secondary": true
       },
       {
         "key": "AK,WA",
         "region1": "AK",
         "region2": "WA",
         "angle": 45,
-        "secondary": false
+        "secondary": true
       },
       {
         "key": "NH,VT",
@@ -18738,7 +18570,7 @@
         "region1": "MA",
         "region2": "NH",
         "angle": 315,
-        "secondary": false
+        "secondary": true
       },
       {
         "key": "ID,WA",
@@ -18913,7 +18745,7 @@
         "region1": "MI",
         "region2": "PA",
         "angle": 45,
-        "secondary": false
+        "secondary": true
       },
       {
         "key": "IL,MI",
@@ -18976,7 +18808,7 @@
         "region1": "CT",
         "region2": "RI",
         "angle": 315,
-        "secondary": false
+        "secondary": true
       },
       {
         "key": "OR,UT",
@@ -19235,7 +19067,7 @@
         "region1": "CT",
         "region2": "MD",
         "angle": 135,
-        "secondary": false
+        "secondary": true
       },
       {
         "key": "CA,NV",
@@ -19249,7 +19081,7 @@
         "region1": "AZ",
         "region2": "CA",
         "angle": 225,
-        "secondary": false
+        "secondary": true
       },
       {
         "key": "CO,NV",
@@ -19466,7 +19298,7 @@
         "region1": "DE",
         "region2": "NC",
         "angle": 135,
-        "secondary": false
+        "secondary": true
       },
       {
         "key": "AZ,NM",
@@ -19487,7 +19319,7 @@
         "region1": "NM",
         "region2": "OK",
         "angle": 45,
-        "secondary": false
+        "secondary": true
       },
       {
         "key": "AR,KS",
@@ -19620,7 +19452,7 @@
         "region1": "GA",
         "region2": "NC",
         "angle": 315,
-        "secondary": false
+        "secondary": true
       },
       {
         "key": "LA,OK",
@@ -19634,7 +19466,7 @@
         "region1": "OK",
         "region2": "TX",
         "angle": 45,
-        "secondary": false
+        "secondary": true
       },
       {
         "key": "LA,MS",
@@ -19662,7 +19494,7 @@
         "region1": "MS",
         "region2": "TX",
         "angle": 135,
-        "secondary": false
+        "secondary": true
       },
       {
         "key": "AL,GA",
@@ -19676,7 +19508,7 @@
         "region1": "FL",
         "region2": "GA",
         "angle": 225,
-        "secondary": false
+        "secondary": true
       }
     ],
     "valid": [
@@ -19696,7 +19528,7 @@
         "realAngle": 262.2496062858172,
         "angle": 315,
         "diffAngle": -52.75039371418279,
-        "secondary": false
+        "secondary": true
       },
       {
         "key": "MA,RI",
@@ -19858,7 +19690,7 @@
         "realAngle": 216.88788547217186,
         "angle": 225,
         "diffAngle": -8.11211452782814,
-        "secondary": false
+        "secondary": true
       },
       {
         "key": "AZ,NV",
@@ -19966,7 +19798,7 @@
         "realAngle": 353.83415126165704,
         "angle": 45,
         "diffAngle": -51.16584873834296,
-        "secondary": false
+        "secondary": true
       },
       {
         "key": "UT,WY",
@@ -20146,7 +19978,7 @@
         "realAngle": 111.61436885424206,
         "angle": 45,
         "diffAngle": 66.61436885424206,
-        "secondary": false
+        "secondary": true
       },
       {
         "key": "LA,TX",
@@ -20173,7 +20005,7 @@
         "realAngle": 340.95169757762886,
         "angle": 315,
         "diffAngle": 25.951697577628863,
-        "secondary": false
+        "secondary": true
       },
       {
         "key": "CT,NY",
@@ -20245,7 +20077,7 @@
         "realAngle": 249.88595828318142,
         "angle": 225,
         "diffAngle": 24.885958283181424,
-        "secondary": false
+        "secondary": true
       },
       {
         "key": "GA,SC",
@@ -20263,7 +20095,7 @@
         "realAngle": 309.9043309071484,
         "angle": 315,
         "diffAngle": -5.095669092851608,
-        "secondary": false
+        "secondary": true
       },
       {
         "key": "GA,TN",
@@ -20484,15 +20316,6 @@
         "secondary": false
       },
       {
-        "key": "MA,NH",
-        "region1": "MA",
-        "region2": "NH",
-        "realAngle": 262.2496062858172,
-        "angle": 315,
-        "diffAngle": -52.75039371418279,
-        "secondary": false
-      },
-      {
         "key": "MA,RI",
         "region1": "MA",
         "region2": "RI",
@@ -20610,15 +20433,6 @@
         "secondary": false
       },
       {
-        "key": "AZ,CA",
-        "region1": "AZ",
-        "region2": "CA",
-        "realAngle": 216.88788547217186,
-        "angle": 225,
-        "diffAngle": -8.11211452782814,
-        "secondary": false
-      },
-      {
         "key": "AZ,NV",
         "region1": "AZ",
         "region2": "NV",
@@ -20688,15 +20502,6 @@
         "realAngle": 11.226916309177,
         "angle": 270,
         "diffAngle": -258.773083690823,
-        "secondary": false
-      },
-      {
-        "key": "NM,OK",
-        "region1": "NM",
-        "region2": "OK",
-        "realAngle": 353.83415126165704,
-        "angle": 45,
-        "diffAngle": -51.16584873834296,
         "secondary": false
       },
       {
@@ -20799,15 +20604,6 @@
         "secondary": false
       },
       {
-        "key": "OK,TX",
-        "region1": "OK",
-        "region2": "TX",
-        "realAngle": 111.61436885424206,
-        "angle": 45,
-        "diffAngle": 66.61436885424206,
-        "secondary": false
-      },
-      {
         "key": "LA,TX",
         "region1": "LA",
         "region2": "TX",
@@ -20823,15 +20619,6 @@
         "realAngle": 316.3009008588238,
         "angle": 0,
         "diffAngle": -43.69909914117619,
-        "secondary": false
-      },
-      {
-        "key": "CT,RI",
-        "region1": "CT",
-        "region2": "RI",
-        "realAngle": 340.95169757762886,
-        "angle": 315,
-        "diffAngle": 25.951697577628863,
         "secondary": false
       },
       {
@@ -20880,30 +20667,12 @@
         "secondary": false
       },
       {
-        "key": "FL,GA",
-        "region1": "FL",
-        "region2": "GA",
-        "realAngle": 249.88595828318142,
-        "angle": 225,
-        "diffAngle": 24.885958283181424,
-        "secondary": false
-      },
-      {
         "key": "GA,SC",
         "region1": "GA",
         "region2": "SC",
         "realAngle": 320.82734312044,
         "angle": 270,
         "diffAngle": 50.82734312043999,
-        "secondary": false
-      },
-      {
-        "key": "GA,NC",
-        "region1": "GA",
-        "region2": "NC",
-        "realAngle": 309.9043309071484,
-        "angle": 315,
-        "diffAngle": -5.095669092851608,
         "secondary": false
       },
       {
@@ -21035,6 +20804,15 @@
     ],
     "secondary": [
       {
+        "key": "MA,NH",
+        "region1": "MA",
+        "region2": "NH",
+        "realAngle": 262.2496062858172,
+        "angle": 315,
+        "diffAngle": -52.75039371418279,
+        "secondary": true
+      },
+      {
         "key": "MN,SD",
         "region1": "MN",
         "region2": "SD",
@@ -21071,6 +20849,15 @@
         "secondary": true
       },
       {
+        "key": "AZ,CA",
+        "region1": "AZ",
+        "region2": "CA",
+        "realAngle": 216.88788547217186,
+        "angle": 225,
+        "diffAngle": -8.11211452782814,
+        "secondary": true
+      },
+      {
         "key": "CO,UT",
         "region1": "CO",
         "region2": "UT",
@@ -21095,6 +20882,15 @@
         "realAngle": 251.5046943151023,
         "angle": 225,
         "diffAngle": 26.504694315102313,
+        "secondary": true
+      },
+      {
+        "key": "NM,OK",
+        "region1": "NM",
+        "region2": "OK",
+        "realAngle": 353.83415126165704,
+        "angle": 45,
+        "diffAngle": -51.16584873834296,
         "secondary": true
       },
       {
@@ -21170,6 +20966,24 @@
         "secondary": true
       },
       {
+        "key": "OK,TX",
+        "region1": "OK",
+        "region2": "TX",
+        "realAngle": 111.61436885424206,
+        "angle": 45,
+        "diffAngle": 66.61436885424206,
+        "secondary": true
+      },
+      {
+        "key": "CT,RI",
+        "region1": "CT",
+        "region2": "RI",
+        "realAngle": 340.95169757762886,
+        "angle": 315,
+        "diffAngle": 25.951697577628863,
+        "secondary": true
+      },
+      {
         "key": "CT,NY",
         "region1": "CT",
         "region2": "NY",
@@ -21185,6 +20999,24 @@
         "realAngle": 318.1602691304627,
         "angle": 315,
         "diffAngle": 3.160269130462723,
+        "secondary": true
+      },
+      {
+        "key": "FL,GA",
+        "region1": "FL",
+        "region2": "GA",
+        "realAngle": 249.88595828318142,
+        "angle": 225,
+        "diffAngle": 24.885958283181424,
+        "secondary": true
+      },
+      {
+        "key": "GA,NC",
+        "region1": "GA",
+        "region2": "NC",
+        "realAngle": 309.9043309071484,
+        "angle": 315,
+        "diffAngle": -5.095669092851608,
         "secondary": true
       },
       {
@@ -21369,31 +21201,10 @@
     ],
     "invalid": [
       {
-        "key": "ME,VT",
-        "region1": "ME",
-        "region2": "VT",
-        "angle": 135,
-        "secondary": false
-      },
-      {
-        "key": "AK,WA",
-        "region1": "AK",
-        "region2": "WA",
-        "angle": 45,
-        "secondary": false
-      },
-      {
         "key": "NH,RI",
         "region1": "NH",
         "region2": "RI",
         "angle": 90,
-        "secondary": false
-      },
-      {
-        "key": "MI,PA",
-        "region1": "MI",
-        "region2": "PA",
-        "angle": 45,
         "secondary": false
       },
       {
@@ -21439,13 +21250,6 @@
         "secondary": false
       },
       {
-        "key": "CT,MD",
-        "region1": "CT",
-        "region2": "MD",
-        "angle": 135,
-        "secondary": false
-      },
-      {
         "key": "CO,NV",
         "region1": "CO",
         "region2": "NV",
@@ -21485,13 +21289,6 @@
         "region1": "MD",
         "region2": "NC",
         "angle": 90,
-        "secondary": false
-      },
-      {
-        "key": "DE,NC",
-        "region1": "DE",
-        "region2": "NC",
-        "angle": 135,
         "secondary": false
       },
       {
@@ -21535,13 +21332,6 @@
         "region2": "OK",
         "angle": 180,
         "secondary": false
-      },
-      {
-        "key": "MS,TX",
-        "region1": "MS",
-        "region2": "TX",
-        "angle": 135,
-        "secondary": false
       }
     ],
     "misdirections": [
@@ -21570,7 +21360,7 @@
         "realAngle": 111.61436885424206,
         "angle": 45,
         "diffAngle": 66.61436885424206,
-        "secondary": false
+        "secondary": true
       },
       {
         "key": "MA,RI",
@@ -21631,9 +21421,9 @@
     "cols": 8,
     "area": 96,
     "topology": 0.8461538461538461,
-    "topologyPrimary": 0.5961538461538461,
-    "topologySecondary": 0.25,
-    "inaccuracy": 0.17482517482517482,
+    "topologyPrimary": 0.5288461538461539,
+    "topologySecondary": 0.3173076923076923,
+    "inaccuracy": 0.13286713286713286,
     "misdirection": 0.10227272727272728,
     "source": "bloomberg"
   }

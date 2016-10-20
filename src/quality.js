@@ -81,7 +81,7 @@ function qc(cells, realPairs){
         region1: region1.key,
         region2: region2.key,
         angle: angle,
-        secondary: i>1
+        secondary: (Math.abs(region1.x - region2.x) + Math.abs(region1.y - region2.y)) === 2
       });
     });
   });
@@ -190,6 +190,11 @@ var output = [['source', 'area', 'topology', 'primary', 'secondary', 'inaccuracy
   });
   return [q.source, q.area, q.topology, q.topologyPrimary, q.topologySecondary, q.inaccuracy, q.misdirection];
 }));
+
+var outputJson = qualities.map(function(q) {
+  return _.pick(q, ['source', 'area', 'topology', 'topologyPrimary', 'topologySecondary', 'inaccuracy', 'misdirection']);
+});
+console.log(JSON.stringify(outputJson, null, 2));
 
 util.saveAsCsv(__dirname + '/output/quality-data.csv', output);
 util.saveAsCsv(__dirname + '/output/quality-data2.csv', output2);

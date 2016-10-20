@@ -16,6 +16,8 @@ var names = {
 var container = d3.select('.map-container');
 
 d3.json('qualities.json', function(error, qualities) {
+  const qualityBySource = _.keyBy(qualities, d => d.source);
+
   const misdirections = _(qualities)
     .keyBy(d => d.source)
     .mapValues(value => _(value.misdirections)
@@ -33,7 +35,7 @@ d3.json('qualities.json', function(error, qualities) {
     var block = container.append('div').classed('block', true);
     var title = block.append('div').classed('title', true).text(names[source]);
     var element = block.append('div').classed('map', true);
-    var map = new d3Kit.Gridmap(element[0][0], {
+    var map = new d3Kit.GridmapExtra(element[0][0], {
       col: function(d){return +d.x;},
       row: function(d){return +d.y;},
       tileWidth: 21,
@@ -44,7 +46,13 @@ d3.json('qualities.json', function(error, qualities) {
       }
     });
 
-    d3.csv('dist/gridmap-layout-usa-'+source+'.csv', function(error, data){
+    d3.csv('dist/gridmap-layout-usa-'+source+'.csv', function(error, tiles){
+      var data = {
+        tiles: tiles,
+        tileLookup: _.keyBy(tiles, t => t.key),
+        quality: qualityBySource[sourceKey]
+      };
+
       map.data(data).resizeToFitMap();
     });
   });
